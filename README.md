@@ -5,7 +5,8 @@
 📍 Harur, Dharmapuri, Tamil Nadu  
 🎥 YouTube Educator → [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
-<img align="right" width="370" src="https://media.giphy.com/media/3ohs7KViFQgNBhH4XS/giphy.gif" />
+<img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
+
 
 ---
 
