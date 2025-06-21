@@ -1,24 +1,30 @@
 # 👋 Hi, I’m S.M. Sakthivel
 
-🚀 *Aspiring AI & Data Science Professional | Innovator in Sustainable Fishing & Home Automation*  
-🎓 Final Year B.Tech AI & DS @ Achariya College of Engineering and Technology (Affiliated to Pondicherry University)  
+🚀 *Aspiring AI & Data Science Professional | Innovator in Sustainable Fishing & Automation*  
+🎓 Final Year B.Tech AI & DS @ Achariya College of Engineering and Technology  
 📍 Harur, Dharmapuri, Tamil Nadu  
-🎥 Educator on YouTube → [Dataman Channel](https://youtube.com/@Dataman)
+🎥 YouTube Educator → [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
-<img align="right" width="370" height="280" src="https://i.pinimg.com/originals/47/f0/34/47f0342cec72b800463bf003eac1257e.gif" />
-
----
-
-## 🚀 My Projects
-
-- **🌊 BioCatch**: AI + IoT platform for sustainable fishing (location + fish data + marketplace)
-- **🧹 ThalaiKeezh**: AI-controlled ceiling vacuum bot to remove cobwebs (patent in progress)
-- **🎨 Ceiling Painting Bot**: Paints ceilings using floor-level storage and robotic spray
-- **📱 Thoondil App**: Fish logger and marketplace app (Flutter + Supabase)
+<img align="right" width="370" src="https://media.giphy.com/media/3ohs7KViFQgNBhH4XS/giphy.gif" />
 
 ---
 
-## 📊 My Developer Stats
+## 💡 Quote
+_“I love turning scattered data into intelligent solutions that create real-world impact.”_
+
+---
+
+## 🔥 Projects I'm Proud Of
+
+- **🌊 BioCatch**: AI + IoT platform to track fishing hotspots, fish count, and help fishermen connect with buyers.
+- **🧹 ThalaiKeezh (CobClean)**: Robotic ceiling cobweb remover with vacuum power (patent in progress).
+- **📱 Thoondil App**: Fish logging + fish marketplace app (Flutter + Supabase backend).
+- **♻️ AgriWaste2Fuel**: Smart agriculture waste converter with GHG tracking.
+- **📶 OceanNet**: 5G-enabled ocean connectivity buoys for fishermen and defense networks (Hackathon winner).
+
+---
+
+## 📊 Developer Stats
 
 ### 🎥 YouTube Channel – Dataman
 
@@ -43,7 +49,7 @@
 
 ---
 
-## 🧠 Skills & Tools
+## 🧰 Tech & Tools I Use
 
 <img height="35" src="https://img.icons8.com/color/48/python.png" />
 <img height="35" src="https://img.icons8.com/color/48/r-project.png" />
@@ -56,7 +62,6 @@
 <img height="35" src="https://img.icons8.com/color/48/mysql-logo.png" />
 <img height="35" src="https://img.icons8.com/color/48/git.png" />
 <img height="35" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" />
-<img height="35" src="https://img.icons8.com/color/48/figma--v1.png" />
 
 ---
 
@@ -70,11 +75,9 @@
 
 ## 📬 Let’s Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sakthivel-ai)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/callmedataman)  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SAKTHIVEL-SEENIVASAN)  
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:s.m.sakthivelofficial@gmail.com)  
 📱 +91 7418194398
 
 ---
-
-> 🧠 “Building Intelligent Solutions for a Sustainable World”
