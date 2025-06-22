@@ -7,7 +7,6 @@
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
 
-
 ---
 
 ## 💡 Quote
