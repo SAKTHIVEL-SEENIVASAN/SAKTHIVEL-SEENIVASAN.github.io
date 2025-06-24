@@ -1,11 +1,12 @@
 # 👋 Hi, I'm S.M. Sakthivel
+
 🎯 AI Product Engineering Enthusiast | Specialized in ML, DL, NLP, and AIoT Applications
 
 🎓 B.Tech in Artificial Intelligence & Data Science (Final Year, 2026)  
-🏫 Achariya College of Engineering Technology, Puducherry
-     CGPA : 8.50/10.0 , UNIVERSITY--GOLD RANK 
-📍 Harur, Dharmapuri, Tamil Nadu  
- 
+🏫 Achariya College of Engineering Technology, Puducherry  
+🏅 CGPA: 8.50 / 10.0 | University Gold Rank Holder  
+📍 Harur, Dharmapuri, Tamil Nadu
+
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
 
