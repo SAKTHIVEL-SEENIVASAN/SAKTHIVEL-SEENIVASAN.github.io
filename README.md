@@ -1,83 +1,120 @@
-# 👋 Hi, I’m S.M. Sakthivel
+# 👋 Hi, I'm S.M. Sakthivel
 
-🚀 *Aspiring AI & Data Science Professional | Innovator in Sustainable Fishing & Automation*  
-🎓 Final Year B.Tech AI & DS @ Achariya College of Engineering and Technology  
+🎯 *Aspiring AI Product Engineer* | *Focused on AI + IoT, Deep Learning, NLP, and Data-Driven Products*  
+🎓 B.Tech in Artificial Intelligence & Data Science  
+🏫 Achariya College of Engineering and Technology, Puducherry  
 📍 Harur, Dharmapuri, Tamil Nadu  
-🎥 YouTube Educator → [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
+📺 YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
+---
+
+## 💡 Mission
+
+Build intelligent, useful, and ethical AI-powered products that impact people, environment, and future industries.
 
 ---
 
-## 💡 Quote
-_“I love turning scattered data into intelligent solutions that create real-world impact.”_
+## 🚀 Featured Projects
+
+### 🧹 ThalaiKeezh – Ceiling-Cleaning Robot (In Progress)
+- SLAM, Robotics, Embedded Systems  
+- Built a room-aware autonomous robot that can clean ceilings  
+- Reduces human effort by over 70% using sensor-based navigation
+
+### 🌊 Thoondil – Smart Ocean Analytics (In Progress)
+- GCP, IoT, Blockchain, Spark (concept stage)  
+- Forecasts fish hotspots using satellite data  
+- Blockchain-based fish catch traceability under development
+
+### 🎣 BioCatch v1.0 – AI Fishing Zone Predictor
+- Python, Flask, scikit-learn  
+- Suggests high-probability fish zones using historical data  
+- 95% model accuracy, runner-up at Eureka 3.0
+
+### 🔥 AgriWaste2Fuel – Smart Farm Waste Converter
+- Streamlit, ML Regression, Firebase  
+- Converts agri-waste into usable fuel and tracks GHG emissions
+
+### 📶 OceanNet – AI-powered Marine 5G Buoy
+- 5G Innovation Hackathon Finalist  
+- AI-powered communication buoy for fishermen and navy ops
 
 ---
 
-## 🔥 Projects I'm Proud Of
+## 🧠 Experience
 
-- **🌊 BioCatch**: AI + IoT platform to track fishing hotspots, fish count, and help fishermen connect with buyers.
-- **🧹 ThalaiKeezh (CobClean)**: Robotic ceiling cobweb remover with vacuum power (patent in progress).
-- **📱 Thoondil App**: Fish logging + fish marketplace app (Flutter + Supabase backend).
-- **♻️ AgriWaste2Fuel**: Smart agriculture waste converter with GHG tracking.
-- **📶 OceanNet**: 5G-enabled ocean connectivity buoys for fishermen and defense networks (Hackathon winner).
+### Skill Developer Academy (IoT Trainee)  
+📍 Oct 2024 – Present  
+- Trained in real-time automation using sensors + Python  
+- Worked with ML pipelines and microcontrollers (ESP32, Arduino)
 
----
+### Annam.AI – IIT Ropar (Remote)  
+📍 May 2025 – Present  
+- ML Intern  
+- Built a CNN-based soil classifier (F1-score: 1.0 / 0.9781)  
+- Augmented 2000+ training images for deployment
 
-## 📊 Developer Stats
+### Hacktivist – Web Development Intern  
+📍 Jun 2025 – Present  
+- Frontend Intern – React.js  
+- Developed dashboards, reduced UI load time by 20% using components
 
-### 🎥 YouTube Channel – Dataman
+### MSME Technology Centre – Govt. of India  
+📍 Jan 2025  
+- Python Intern  
+- Automated repetitive reporting processes using scripts
 
-![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCaXKvKUWNjUO61aObvXCe3Q?style=social)  
-![YouTube Views](https://img.shields.io/youtube/channel/views/UCaXKvKUWNjUO61aObvXCe3Q?style=social)
-
----
-
-### 🧠 LeetCode Stats
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/S-M-SAKTHIVEL?theme=dark&font=Marcellus&ext=contest)
-
----
-
-### 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAKTHIVEL-SEENIVASAN&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SAKTHIVEL-SEENIVASAN&layout=compact&theme=radical)
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAKTHIVEL-SEENIVASAN&theme=github-compact)
+### Eaton Garnishing Talent Program  
+📍 Sep – Nov 2024  
+- Industry 4.0, Automation, Innovation  
+- Product pitching, soft skills, and entrepreneurship
 
 ---
 
-## 🧰 Tech & Tools I Use
+## 🛠️ Skills & Technologies
 
-<img height="35" src="https://img.icons8.com/color/48/python.png" />
-<img height="35" src="https://img.icons8.com/color/48/r-project.png" />
-<img height="35" src="https://img.icons8.com/color/48/sql.png" />
-<img height="35" src="https://img.icons8.com/color/48/flutter.png" />
-<img height="35" src="https://img.icons8.com/color/48/firebase.png" />
-<img height="35" src="https://img.icons8.com/color/48/tensorflow.png" />
-<img height="35" src="https://img.icons8.com/color/48/mongodb.png" />
-<img height="35" src="https://img.icons8.com/color/48/javascript.png" />
-<img height="35" src="https://img.icons8.com/color/48/mysql-logo.png" />
-<img height="35" src="https://img.icons8.com/color/48/git.png" />
-<img height="35" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" />
+- **Languages:** Python, R  
+- **Machine Learning:** scikit-learn, Pandas, NumPy  
+- **Deep Learning:** Keras, TensorFlow (basic)  
+- **Domains:** Computer Vision, NLP, Time Series, Forecasting  
+- **Databases:** PostgreSQL, MongoDB  
+- **Dev Tools:** Git, VS Code, Streamlit, Flask  
+- **Others:** Linux (Kubuntu), FastAPI (learning), Supabase, GCP (basic)
 
 ---
 
-## 💻 My Workspace
+## 📜 Certifications
 
-<img height="30" src="https://img.shields.io/badge/Linux-Kubuntu-blue?style=for-the-badge&logo=linux&logoColor=white" />
-<img height="30" src="https://img.shields.io/badge/Laptop-Acer-green?style=for-the-badge&logo=acer&logoColor=white" />
-<img height="30" src="https://img.shields.io/badge/Editor-VSCode-blue?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+| Course Title                                | Platform         | Year  |
+|---------------------------------------------|------------------|--------|
+| Big Data Computing (Elite Medal)            | NPTEL – IIT Kanpur | 2024 |
+| Deep Learning Specialization                 | Coursera – Andrew Ng | 2025 (In Progress) |
+| AI for IoT Systems                           | Skill India + SSDN | 2024 |
+| AI Product Building (Mini Bootcamp)          | iNeuron (Self-paced) | 2024 |
+| Python for Data Science                      | Great Learning | 2023 |
+
+**NPTEL Certificate Preview:**  
+[![NPTEL Certificate](https://drive.google.com/uc?id=1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-)](https://drive.google.com/file/d/1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-/view)
+
+---
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAKTHIVEL-SEENIVASAN&show_icons=true&theme=default)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SAKTHIVEL-SEENIVASAN&layout=compact&theme=default)  
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAKTHIVEL-SEENIVASAN&theme=default)
 
 ---
 
-## 📬 Let’s Connect
+## 📬 Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/callmedataman)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SAKTHIVEL-SEENIVASAN)  
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:s.m.sakthivelofficial@gmail.com)  
-📱 +91 7418194398
+- GitHub: [github.com/SAKTHIVEL-SEENIVASAN](https://github.com/SAKTHIVEL-SEENIVASAN)  
+- LinkedIn: [linkedin.com/in/callmedataman](https://linkedin.com/in/callmedataman)  
+- Email: s.m.sakthivelofficial@gmail.com  
+- Phone: +91 7418194398  
+- YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
 ---
+
+> "Learning never stops. I'm building one product at a time – smarter, cleaner, and future-ready."
