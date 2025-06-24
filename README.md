@@ -3,9 +3,9 @@
 
 🎓 B.Tech in Artificial Intelligence & Data Science (Final Year, 2026)  
 🏫 Achariya College of Engineering Technology, Puducherry
- 
+     CGPA : 8.50/10.0 , UNIVERSITY--GOLD RANK 
 📍 Harur, Dharmapuri, Tamil Nadu  
-📺 YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
+ 
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
 
