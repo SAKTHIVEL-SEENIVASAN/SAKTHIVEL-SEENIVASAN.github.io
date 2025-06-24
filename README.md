@@ -1,18 +1,18 @@
 # 👋 Hi, I'm S.M. Sakthivel
 
-🎯 "AI Product Engineering Enthusiast | Specialized in Machine Learning, Deep Learning, NLP, and AIoT Applications"
-
-🎓 B.Tech in Artificial Intelligence & Data Science  
-🏫 Achariya College of Engineering and Technology, Puducherry  
-📍 Harur, Dharmapuri, Tamil Nadu.
+🎯 AI Product Engineering Enthusiast | Specialized in Machine Learning, Deep Learning, NLP, and AIoT Applications  
+🎓 B.Tech in Artificial Intelligence & Data Science - Final year (2022 - 2026)
+🏫 Achariya College of Engineering Technology in Puducherry,  
+📍 Harur, Dharmapuri, Tamil Nadu  
 📺 YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
+
 ---
 
 ## 💡 Mission
 
-Build intelligent, useful, and ethical AI-powered products that impact people, environment, and future industries.
+Build intelligent, useful, and ethical AI-powered products that impact people, the environment, and future industries.
 
 ---
 
@@ -21,7 +21,7 @@ Build intelligent, useful, and ethical AI-powered products that impact people, e
 ### 🧹 ThalaiKeezh – Ceiling-Cleaning Robot (In Progress)
 - SLAM, Robotics, Embedded Systems  
 - Built a room-aware autonomous robot that can clean ceilings  
-- Reduces human effort by over 70% using sensor-based navigation
+- Reduced human effort by over 70% using sensor-based navigation
 
 ### 🌊 Thoondil – Smart Ocean Analytics (In Progress)
 - GCP, IoT, Blockchain, Spark (concept stage)  
@@ -60,7 +60,7 @@ Build intelligent, useful, and ethical AI-powered products that impact people, e
 ### MSME Technology Centre – Govt. of India  
 📍 Jan 2025  
 - Python Intern  
-- Automated repetitive reporting processes using scripts
+- Automated repetitive reporting processes using Python scripting
 
 ### Eaton Garnishing Talent Program  
 📍 Sep – Nov 2024  
@@ -71,33 +71,87 @@ Build intelligent, useful, and ethical AI-powered products that impact people, e
 
 ## 🛠️ Skills & Technologies
 
-- **Languages:** Python, R  
-- **Machine Learning:** scikit-learn, Pandas, NumPy  
-- **Deep Learning:** Keras, TensorFlow (basic)  
-- **Domains:** Computer Vision, NLP, Time Series, Forecasting  
-- **Databases:** PostgreSQL, MongoDB  
-- **Dev Tools:** Git, VS Code, Streamlit, Flask  
-- **Others:** Linux (Kubuntu), FastAPI (learning), Supabase, GCP (basic)
+### 👨‍💻 Programming & Scripting
+- Python (Primary)
+- R (Data Analysis, Statistics)
+- Bash (basic scripting)
+
+### 🤖 Machine Learning
+- Supervised & Unsupervised Learning  
+- scikit-learn, XGBoost, LightGBM  
+- Model evaluation & tuning (GridSearch, cross-validation)  
+- Data wrangling with Pandas, NumPy
+
+### 🧠 Deep Learning
+- TensorFlow, Keras  
+- CNN, RNN, Transformers (Basic understanding)  
+- Image & Text Processing (Computer Vision, NLP)  
+- Model deployment with TensorFlow Lite (Learning)
+
+### 🗣️ Natural Language Processing
+- Text Cleaning, Tokenization, POS tagging  
+- NLTK, spaCy, Hugging Face Transformers  
+- Sentiment analysis, summarization, embeddings
+
+### 🧪 Model Deployment & API
+- Flask, FastAPI  
+- Streamlit (for ML UI)  
+- RESTful API creation and testing (Postman)
+
+### 🛢️ Databases & Data Handling
+- PostgreSQL, MongoDB  
+- Firebase Realtime DB  
+- Basic knowledge of BigQuery & Spark (learning)
+
+### ☁️ DevOps & Cloud (Beginner level)
+- Git & GitHub  
+- GCP (Compute, Colab, Firebase Hosting)  
+- Docker (basic container usage)
+
+### 🧰 Tools & Platforms
+- VS Code, Jupyter, Google Colab  
+- Linux (Kubuntu) – daily driver  
+- Notion, Obsidian – personal knowledge management
+
+---
+
+> Currently exploring: LangChain, LLMOps, ONNX, Gradio
+
 
 ---
 
 ## 📜 Certifications
 
-| Course Title                                | Platform           | Year  |
-|---------------------------------------------|------------------  |-------|
-| Big Data Computing (Elite Medal)            | NPTEL – IIT Kanpur | 2024  |
-
+| Course Title                                |      Platform        |  Year  |
+|-------------------------------------------- |----------------------|--------|
+| Big Data Computing (Elite Medal)            | NPTEL – IIT Kanpur   | 2024   |
 
 **NPTEL Certificate Preview:**  
 [![NPTEL Certificate](https://drive.google.com/uc?id=1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-)](https://drive.google.com/file/d/1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-/view)
 
 ---
 
+## 📊 YouTube – Dataman
+
+[![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCaXKvKUWNjUO61aObvXCe3Q?style=social)](https://www.youtube.com/@Sakthi_DM)  
+[![YouTube Views](https://img.shields.io/youtube/channel/views/UCaXKvKUWNjUO61aObvXCe3Q?style=social)](https://www.youtube.com/@Sakthi_DM)
+
+---
+
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAKTHIVEL-SEENIVASAN&show_icons=true&theme=default)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SAKTHIVEL-SEENIVASAN&layout=compact&theme=default)  
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAKTHIVEL-SEENIVASAN&theme=default)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAKTHIVEL-SEENIVASAN&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SAKTHIVEL-SEENIVASAN&layout=compact&theme=radical)  
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAKTHIVEL-SEENIVASAN&theme=github-compact)
+
+---
+
+## 💡 LeetCode & DSA Learning
+
+> Focused on problem-solving through real-world applications and logic building.  
+Currently improving fundamentals through daily LeetCode challenges.
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/S-M-SAKTHIVEL?theme=dark&font=Marcellus&ext=contest)
 
 ---
 
@@ -111,4 +165,4 @@ Build intelligent, useful, and ethical AI-powered products that impact people, e
 
 ---
 
-> "Learning never stops. I'm building one product at a time – smarter, cleaner, and future-ready."
+> “Learning never stops. I'm building one product at a time – smarter, cleaner, and future-ready.”
