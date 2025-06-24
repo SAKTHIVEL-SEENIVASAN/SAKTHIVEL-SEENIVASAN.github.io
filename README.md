@@ -1,9 +1,8 @@
 # 👋 Hi, I'm S.M. Sakthivel
-
 🎯 AI Product Engineering Enthusiast | Specialized in ML, DL, NLP, and AIoT Applications
 
 🎓 B.Tech in Artificial Intelligence & Data Science - Final year (2026),
-🏫 Achariya College of Engineering Technology in Puducherry,  
+🏫 Achariya College of Engineering Technology , Puducherry,  
 📍 Harur, Dharmapuri, Tamil Nadu  
 📺 YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
