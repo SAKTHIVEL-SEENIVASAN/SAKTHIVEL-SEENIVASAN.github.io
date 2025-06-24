@@ -1,9 +1,10 @@
 # 👋 Hi, I'm S.M. Sakthivel
 
-🎯 *Aspiring AI Product Engineer* | *Focused on AI + IoT, Deep Learning, NLP, and Data-Driven Products*  
+🎯 "AI Product Engineering Enthusiast | Specialized in Machine Learning, Deep Learning, NLP, and AIoT Applications"
+
 🎓 B.Tech in Artificial Intelligence & Data Science  
 🏫 Achariya College of Engineering and Technology, Puducherry  
-📍 Harur, Dharmapuri, Tamil Nadu  
+📍 Harur, Dharmapuri, Tamil Nadu.
 📺 YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
@@ -35,10 +36,6 @@ Build intelligent, useful, and ethical AI-powered products that impact people, e
 ### 🔥 AgriWaste2Fuel – Smart Farm Waste Converter
 - Streamlit, ML Regression, Firebase  
 - Converts agri-waste into usable fuel and tracks GHG emissions
-
-### 📶 OceanNet – AI-powered Marine 5G Buoy
-- 5G Innovation Hackathon Finalist  
-- AI-powered communication buoy for fishermen and navy ops
 
 ---
 
@@ -86,13 +83,10 @@ Build intelligent, useful, and ethical AI-powered products that impact people, e
 
 ## 📜 Certifications
 
-| Course Title                                | Platform         | Year  |
-|---------------------------------------------|------------------|--------|
-| Big Data Computing (Elite Medal)            | NPTEL – IIT Kanpur | 2024 |
-| Deep Learning Specialization                 | Coursera – Andrew Ng | 2025 (In Progress) |
-| AI for IoT Systems                           | Skill India + SSDN | 2024 |
-| AI Product Building (Mini Bootcamp)          | iNeuron (Self-paced) | 2024 |
-| Python for Data Science                      | Great Learning | 2023 |
+| Course Title                                | Platform           | Year  |
+|---------------------------------------------|------------------  |-------|
+| Big Data Computing (Elite Medal)            | NPTEL – IIT Kanpur | 2024  |
+
 
 **NPTEL Certificate Preview:**  
 [![NPTEL Certificate](https://drive.google.com/uc?id=1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-)](https://drive.google.com/file/d/1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-/view)
