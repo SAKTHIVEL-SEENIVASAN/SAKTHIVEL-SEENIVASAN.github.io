@@ -145,7 +145,7 @@ Currently improving fundamentals through daily LeetCode challenges.
 
 - GitHub: [github.com/SAKTHIVEL-SEENIVASAN](https://github.com/SAKTHIVEL-SEENIVASAN)  
 - LinkedIn: [linkedin.com/in/callmedataman](https://linkedin.com/in/callmedataman)
-- Hackerrank: [](https://www.hackerrank.com/profile/s_m_sakthivelof1)
+- Hackerrank: [hackerrank.com/profile/s_m_sakthivelof1](https://www.hackerrank.com/profile/s_m_sakthivelof1)
 - Email: s.m.sakthivelofficial@gmail.com  
 - Phone: +91 7418194398  
 - YouTube: [Dataman Channel](https://www.youtube.com/@Sakthi_DM)
