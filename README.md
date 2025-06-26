@@ -1,12 +1,12 @@
-# 👋 Hi, I’m S.M. Sakthivel
+👋 Hi, I’m S.M. Sakthivel
 
-🎯 **AI Product Engineer | Applied ML Developer | Builder of Smart & Sustainable Tech**  
-💡 Passionate about transforming real-world problems into scalable AI-powered products.
+🎯 AI Product Engineer | Applied ML Developer | Builder of Smart & Sustainable Tech
+💡 Passionate about transforming real-world challenges into scalable, AI-powered solutions.
 
-🎓 **B.Tech in Artificial Intelligence & Data Science** (Final Year, 2026)  
-🏫 Achariya College of Engineering Technology, Puducherry  
-🏅 CGPA: **8.50 / 10.0** | top 5/27 university topper
-📍 Harur, Dharmapuri, Tamil Nadu  
+🎓 B.Tech in Artificial Intelligence & Data Science (Pursuing – Final Year, Graduating in 2026)
+🏫 Achariya College of Engineering Technology, Puducherry
+📊 Current CGPA: 8.50 / 10.0 (Top 5 out of 27 – University Rank Holder*)
+📍 Harur, Dharmapuri, Tamil Nadu
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
 
