@@ -5,7 +5,7 @@
 
 🎓 **B.Tech in Artificial Intelligence & Data Science** (Final Year, 2026)  
 🏫 Achariya College of Engineering Technology, Puducherry  
-🏅 CGPA: **8.50 / 10.0** | University Gold Rank Holder  
+🏅 CGPA: **8.50 / 10.0** | top 5/27 university topper
 📍 Harur, Dharmapuri, Tamil Nadu  
 
 <img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
