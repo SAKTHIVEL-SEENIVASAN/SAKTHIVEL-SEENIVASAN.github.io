@@ -1,121 +1,163 @@
-# 👋 Hi, I’m S.M. Sakthivel
+👋 Hi, I’m S. M. Sakthivel
 
-🎯 AI Product Engineer | Applied ML Developer | Builder of Smart & Sustainable Tech  
-💡 I’m passionate about solving real-world challenges through AI-driven, scalable solutions.
+AI & LLM Engineer | Generative AI & Applied Machine Learning
 
-🎓 B.Tech in Artificial Intelligence & Data Science (Final Year – Graduating 2026)  
-🏫 Achariya College of Engineering Technology, Puducherry  
-📊 CGPA: 8.50 / 10.0 (Top 5 out of 27 – based on performance till 6th semester)  
-📍 Harur, Dharmapuri, Tamil Nadu
+📍 India
+📧 s.m.sakthivelofficial@gmail.com
 
-<img src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/main/dataman-mining.gif" width="500" />
+📞 +91 7418194398
 
----
+🧠 About Me
 
-## 💡 Mission
+I’m an AI engineering student with hands-on experience in computer vision, large language models, and backend AI systems.
+I enjoy building real-world AI applications through hackathons, internships, and open-source projects.
 
-To design, build, and deploy **impact-driven AI applications** across automation, sustainability, and intelligent analytics — using ethical and scalable engineering practices.
+I work mainly with YOLOv8, RAG pipelines, FastAPI, Docker, and modern ML tools.
 
----
+🎓 Education
 
-## 🚀 Featured Projects
+B.Tech – Artificial Intelligence & Data Science
+Achariya College of Engineering Technology, Puducherry
+2022 – 2026
+CGPA: 8.0 / 10.0
 
-### 🔥 AgriWaste2Fuel – ML-Powered Waste-to-Energy Predictor
-- Predicts fuel value from agri waste & estimates greenhouse emissions using ML regression models  
-- **Tools**: Streamlit, Firebase, ML Regression  
-- Real-time prediction interface with analytics dashboard
+🧠 Technical Skills
+🤖 AI & Machine Learning
 
-### 🌊 Thoondil – Ocean Intelligence & Analytics Platform *(In Progress)*
-- Marine analytics system predicting fish-rich zones using satellite data  
-- Blockchain-based fish traceability in development  
-- **Stack**: GCP, AIoT, Spark (learning)
+Machine Learning
 
-### 🎣 BioCatch v1.0 – AI Fishing Zone Recommender
-- Web app that recommends fishing spots using ML on historical + satellite data  
-- Achieved **95% model accuracy**  
-- **Stack**: Python, Flask, scikit-learn  
-- 🏆 *Runner-up – Eureka 3.0 Hackathon*
+Deep Learning fundamentals
 
----
+Computer Vision (YOLOv8, OpenCV)
 
-## 🧠 Experience
+🗣 LLMs & NLP
 
-### 🧑‍🌾 Annam.AI – IIT Ropar | *ML Intern*  
-📍 *May 2025 – Present*  
-- Built CNN-based soil classifier (F1-Score: **1.0 / 0.9781**)  
-- Augmented 2000+ agricultural images for deployment
+Large Language Models
 
-### 🏢 MSME Technology Centre – Govt. of India | *Python Intern*  
-📍 *Jan 2025*  
-- Automated internal reports using Python scripting  
-- Optimized repetitive workflows
+Prompt Engineering
 
-### 🚀 Eaton Garnishing Talent Program  
-📍 *Sep – Nov 2024*  
-- Exposure to Industry 4.0, product innovation, and soft skills  
-- Participated in product pitch rounds and design-thinking workshops
+RAG (Retrieval-Augmented Generation)
 
----
+Embeddings & Semantic Search
 
-## 🛠️ Skills Snapshot
+💻 Programming & Backend
 
-### 👨‍💻 Programming  
-Python (Primary), R (Statistical), Bash (Basics)
+Python
 
-### 🤖 Machine Learning  
-scikit-learn, XGBoost, LightGBM  
-Regression, Classification, Clustering  
-Model tuning, evaluation, cross-validation
+FastAPI
 
-### 🧠 Deep Learning  
-TensorFlow, Keras  
-CNNs, RNNs, Transformers (Basic)  
-TensorFlow Lite (Beginner-level deployment)
+SQL (PostgreSQL)
 
-### 🗣️ NLP & Text AI  
-NLTK, spaCy, Hugging Face Transformers  
-Sentiment analysis, tokenization, summarization
+Data preprocessing
 
-### 🌐 Model Deployment & APIs  
-Flask, FastAPI, Streamlit  
-RESTful APIs, Postman, Gradio  
-ONNX, LangChain, LLMOps (beginner)
+🚀 Deployment & Tools
 
-### 🧪 Data Engineering  
-Pandas, NumPy  
-PostgreSQL, Firebase, MongoDB  
-BigQuery, Spark (intro level)
+Docker
 
-### ☁️ Cloud & DevOps  
-Git & GitHub  
-Google Cloud (Colab, Firebase Hosting, Compute)  
-Docker (Basics), VS Code
+Git & GitHub
 
-### 🧰 Tools & Platforms  
-Jupyter Notebook, Notion, Obsidian  
-Kubuntu Linux (Daily Driver)
+Linux
 
----
+🌐 Web
 
-## 📌 Currently Exploring
+React
 
-- LangChain (LLM-powered apps)  
-- Gradio (AI UI development)  
-- ONNX, LLMOps (model deployment & optimization)  
-- AI Chatbots + Real-time AI integration
+Firebase Authentication
 
----
+📚 Currently Learning
 
-## 📜 Certifications
+n8n (workflow automation)
 
-| Course Title                      | Platform           | Year  |
-|----------------------------------|--------------------|-------|
-| Big Data Computing (Elite Medal) | NPTEL – IIT Kanpur | 2024  |
+UiPath (RPA fundamentals)
 
-**NPTEL Certificate Preview:**  
-[![NPTEL Certificate](https://drive.google.com/uc?id=1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-)](https://drive.google.com/file/d/1obca2BGpQvZAZxa4uVaFzQNmIasgI6y-/view)
+💼 Professional Experience
+🧑‍🌾 AI-Based Agricultural Waste Classification & Carbon Credit Estimation System
 
----
+Annam.AI – IIT Ropar
+
+National Hackathon Winner (₹3,00,000)
+
+Internship Stipend (₹75,000)
+
+Built a dual-modality AI platform using:
+
+YOLOv8 for image-based agricultural waste classification
+
+NLP-based text inputs for waste description
+
+Achieved 92.4% accuracy with real-time inference latency under 120 ms
+
+Designed a multi-parameter recommendation engine (~240 decision combinations)
+
+Implemented IPCC 2006 guideline–aligned CO₂-equivalent emission reduction and carbon credit estimation
+
+Developed and deployed the platform using FastAPI, PostgreSQL, Firebase Auth, and React
+
+Automated PDF certificate generation
+
+🏢 Python Automation Intern
+
+MSME – Government of India
+Jan 2025 – Feb 2025 (Offline)
+
+Built Python automation pipelines for document processing
+
+Automated 500+ documents per day
+
+Reduced report generation time from 4 hours to 15 minutes
+
+Saved 20+ hours per week by eliminating repetitive tasks
+
+Improved system reliability by nearly 90%
+
+🚀 Key Projects
+🧳 DEEP-SHIVA
+
+Open-Source Multimodal Tourism LLM
+Final Round – VMSB-UTU, Uttarakhand
+
+Led a team of 4 members
+
+Designed hallucination-resistant RAG pipelines
+
+Built LLM-based day-wise itinerary generation
+
+Implemented semantic search using sentence-transformer embeddings
+
+Improved response relevance through prompt optimization and data cleaning
+
+🏙 CivicEye
+
+AI-Powered Civic Governance Platform
+Best Innovation Award – Runner-Up
+
+Built a YOLOv8-based civic issue detection system (89% accuracy)
+
+Logged 5,000+ civic reports using Ethereum smart contracts
+
+Tech stack: YOLOv8, FastAPI, Solidity, Web3.py, Streamlit
+
+🌊 SeaBrain
+
+AI-Powered Fishermen Assistance System
+FuturePreneur Grand Finale 2025 – 3rd Prize
+
+Developed AI-based decision-support system for fishing zones
+
+Applied ML models for marine & environmental pattern analysis
+
+Integrated an LLM-based conversational assistant
+
+🌸 AgriEye
+
+Precision Agriculture with Computer Vision
+IMPACTX 2K25 – 5th Place
+
+Built a real-time flower maturity detection system
+
+Achieved 90.5% accuracy
+
+Used YOLOv8 and OpenCV for field deployment
 
 ## 📊 YouTube – Dataman
 
