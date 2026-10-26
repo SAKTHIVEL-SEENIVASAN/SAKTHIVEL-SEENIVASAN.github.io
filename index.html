@@ -2316,9 +2316,11 @@ particlesJS("particles-js", {
                             <span class="text-cyan-400 font-semibold">SAKTHIVEL S M </span><br/>
                             <span class="code-text">AI Engineer | Data Scientist | Automation Specialist</span>
                             <br/><br/>
-                            AI Engineer at Ashirvad by Aliaxis, developing enterprise Generative AI applications,
-                            LLM-powered assistants and document intelligence systems. Also a Technical Trainer in
-                            AI &amp; Generative AI at Marcello Tech, mentoring students through practical AI projects.
+                            AI Engineer focused on Generative AI, Large Language Models and RAG systems. At
+                            Ashirvad by Aliaxis I build enterprise LLM-powered assistants and retrieval-augmented
+                            generation pipelines, and as a Technical Trainer at Marcello Tech I teach AI and
+                            Generative AI. My work spans AI/ML, automation, Python and data engineering, turning
+                            data into practical AI solutions.
                             <br/><br/>
                             Building intelligent systems with expertise in:
                         </p>
@@ -2358,10 +2360,10 @@ particlesJS("particles-js", {
                             <div class="tech-category">
                                 <h4 class="category-title">✨ Generative AI</h4>
                                 <div class="tech-tags">
-                                    <span class="tech-tag">RAG Pipelines</span>
-                                    <span class="tech-tag">BM25 + FAISS</span>
-                                    <span class="tech-tag">Reranking</span>
+                                    <span class="tech-tag">LLMs</span>
+                                    <span class="tech-tag">RAG</span>
                                     <span class="tech-tag">Prompt Engineering</span>
+                                    <span class="tech-tag">AI Agents</span>
                                 </div>
                             </div>
                         </div>
@@ -5441,6 +5443,19 @@ document.head.appendChild(planetStyle);
     <p class="mt-2 text-gray-200 text-lg max-w-3xl mx-auto" data-aos="fade-up" data-aos-duration="1500">
       A timeline highlighting my journey in AI, Open Source, and leadership — combining research, development, and real-world impact.
     </p>
+    <p class="inline-flex flex-wrap justify-center items-center gap-2 mt-6 px-5 py-2 rounded-full bg-gray-800/60 border border-yellow-400/50 text-gray-200" data-aos="zoom-in">
+      <span class="text-yellow-300 font-bold text-lg">⏱ <span id="ai-experience-years">1.8+</span> years</span>
+      <span>hands-on AI experience since Jan 2025 (full-time, internship, research &amp; training roles)</span>
+    </p>
+    <script>
+      // Continuous dated roles since Jan 2025 (IIT Ropar → Aiseri Lab → Marcello Tech / Ashirvad), overlaps counted once.
+      (function () {
+        const el = document.getElementById('ai-experience-years');
+        const now = new Date();
+        const months = (now.getFullYear() - 2025) * 12 + now.getMonth() + 1;
+        if (months > 0) el.textContent = (Math.floor(months / 12 * 10) / 10) + '+';
+      })();
+    </script>
 
     <!-- Timeline (single column on mobile, alternating from md up) -->
     <div class="relative mt-12 max-w-4xl mx-auto">
@@ -5585,65 +5600,46 @@ document.head.appendChild(planetStyle);
     <div class="relative container mx-auto z-10">
         <h2 class="text-5xl font-bold text-white tracking-wide mb-6">🎓 My Qualifications</h2>
         <p class="mt-2 text-gray-200 text-lg max-w-3xl mx-auto">
-            Showcasing my academic achievements and professional certifications.
+            Academic background and professional certifications.
         </p>
 
-        <!-- Qualification Grid -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12">
-
-            <!-- B.Tech Card -->
-            <div class="certificate-card">
-                <div class="certificate-inner">
-                    <div class="certificate-front">
-                        <img src="assests/Screenshot_20251019_232242.png" alt="Achariya College of Engineering Technology, Puducherry" class="college-img">
-                        <h3 class="text-3xl font-bold text-yellow-300 mt-4">🎓 B.Tech AI & DS</h3>
-                        <p class="text-gray-200 mt-2">Achariya College of Engineering Technology, Puducherry</p>
-                        <p class="text-gray-400 mt-2">📅 2022 – 2026</p>
-                    </div>
-                    <div class="certificate-back">
-                        <p class="text-lg text-white">Artificial Intelligence and Data Science</p>
-                        <p class="text-yellow-300 mt-2">CGPA 8.49/10 · Gold Rank, Top 5 in Department</p>
-                        <p class="text-gray-300 mt-2">🔹 AI/ML Engineering | 🔹 Data Engineering | 🔹 Competitive Coding</p>
-                    </div>
+        <!-- Main Degree -->
+        <div class="degree-card max-w-4xl mx-auto mt-12 text-left" data-aos="zoom-in" data-aos-duration="1200">
+            <img src="assests/Screenshot_20251019_232242.png" alt="Achariya College of Engineering Technology, Puducherry" class="degree-logo">
+            <div>
+                <p class="text-sm uppercase tracking-widest text-yellow-300 font-semibold">🎓 Bachelor of Technology</p>
+                <h3 class="text-2xl md:text-3xl font-bold text-white mt-2">B.Tech in Artificial Intelligence and Data Science</h3>
+                <p class="text-gray-200 mt-2 text-lg">Achariya College of Engineering Technology, Puducherry</p>
+                <div class="flex flex-wrap gap-3 mt-5">
+                    <span class="degree-badge">📅 2022 – 2026</span>
+                    <span class="degree-badge">CGPA: 8.49/10.0</span>
+                    <span class="degree-badge degree-badge-gold">🏅 Gold Rank — Top 5 in Department</span>
                 </div>
+                <p class="text-gray-300 mt-5">🔹 AI/ML Engineering | 🔹 Data Engineering | 🔹 Competitive Coding</p>
             </div>
+        </div>
 
-            <!-- Advanced Diploma Card -->
-            <div class="certificate-card">
-                <div class="certificate-inner">
-                    <div class="certificate-front">
-                        <img src="assests/hsc.png" alt="Computer Software College" class="college-img">
-                        <h3 class="text-3xl font-bold text-blue-300">Advanced Diploma in Java Programming</h3>
-                        <p class="text-gray-200 mt-2">Computer Software College</p>
-                        <p class="text-gray-400 mt-2">📅 2023 | A-Grade</p>
-                    </div>
-                    <div class="certificate-back">
-                        <p class="text-lg text-white">Java Programming</p>
-                        <p class="text-gray-300 mt-2">🔹 Object-Oriented Concepts | 🔹 Web Development Basics | 🔹 Project Work</p>
-                    </div>
-                </div>
+        <!-- Certifications & Programs -->
+        <h3 class="text-3xl font-bold text-white mt-16" data-aos="fade-up">📜 Certifications &amp; Programs</h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 max-w-6xl mx-auto">
+            <div class="cert-card" data-aos="zoom-in">
+                <div class="cert-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+                <h4 class="cert-title">Big Data Computing</h4>
+                <p class="cert-issuer">IIT Kanpur</p>
             </div>
-
-            <!-- Certifications Card -->
-            <div class="certificate-card">
-                <div class="certificate-inner">
-                    <div class="certificate-front">
-                        <img src="assests/certi.jpg" alt="Professional Certifications" class="college-img">
-                        <h3 class="text-3xl font-bold text-green-300">📜 Certifications</h3>
-                        <p class="text-gray-200 mt-2">🏅 Professional & Technical Courses</p>
-                    </div>
-                    <div class="certificate-back">
-                        <p class="text-lg text-white">✅ Postman API Expert</p>
-                        <p class="text-gray-300 mt-2">✅ Cloud Computing (IBM)</p>
-                        <p class="text-gray-300 mt-2">✅ Additional Certifications</p>
-                        <p class="text-gray-300 mt-2">✅ Big Data Computing – IIT Kanpur</p>
-                        <p class="text-gray-300 mt-2">✅ MongoDB Certified Developer Associate</p>
-                        <p class="text-gray-300 mt-2">✅ CII-Eaton Talent Development Program</p>
-                        <p class="text-gray-300 mt-2">✅ Agentic AI Day Participant</p>
-                    </div>
-                </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="cert-icon"><i class="fas fa-leaf" aria-hidden="true"></i></div>
+                <h4 class="cert-title">MongoDB Certified Developer Associate</h4>
             </div>
-
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="cert-icon"><i class="fas fa-handshake" aria-hidden="true"></i></div>
+                <h4 class="cert-title">CII–Eaton Talent Development Program</h4>
+            </div>
+            <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="cert-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                <h4 class="cert-title">Agentic AI Day</h4>
+                <p class="cert-issuer">Participant</p>
+            </div>
         </div>
     </div>
 </section>
@@ -5711,6 +5707,89 @@ document.head.appendChild(planetStyle);
     .certificate-card {
         height: 350px;
     }
+}
+
+/* Main degree card (same glass + gold styling as the certificate cards) */
+.degree-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 215, 0, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+.degree-card:hover {
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.7);
+}
+.degree-logo {
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+@media (min-width: 768px) {
+    .degree-card { grid-template-columns: 180px 1fr; }
+}
+.degree-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 9999px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.degree-badge-gold {
+    color: #fde047;
+    border-color: rgba(255, 215, 0, 0.6);
+}
+
+/* Certification cards */
+.cert-card {
+    padding: 1.75rem 1.25rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 215, 0, 0.35);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cert-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.5);
+}
+.cert-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #facc15, #f59e0b);
+    color: #1f2937;
+    font-size: 1.6rem;
+}
+.cert-title {
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+.cert-issuer {
+    margin-top: 0.25rem;
+    color: #fde047;
+    font-size: 0.9rem;
+}
+@media (prefers-reduced-motion: reduce) {
+    .cert-card, .cert-card:hover { transition: none; transform: none; }
 }
 </style>
 
