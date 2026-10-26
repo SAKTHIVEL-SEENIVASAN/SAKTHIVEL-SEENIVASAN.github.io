@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Home</title>
+    <title>Sakthivel S M — AI Engineer | Generative AI, LLM & RAG Systems</title>
+    <meta name="description" content="Portfolio of Sakthivel S M, AI Engineer at Ashirvad by Aliaxis, Bengaluru — building enterprise Generative AI applications, LLM-powered assistants and RAG systems.">
+    <meta property="og:title" content="Sakthivel S M — AI Engineer">
+    <meta property="og:description" content="Enterprise Generative AI, LLM-powered assistants and RAG systems. Projects, experience and achievements.">
+    <meta property="og:type" content="website">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,17 +27,18 @@
             <h1 class="text-2xl text-blue-400 font-bold">SAKTHIVEL S M</h1>
     
             <!-- Mobile Menu Button -->
-            <button id="menu-btn" class="md:hidden text-blue-400 text-3xl focus:outline-none">
+            <button id="menu-btn" class="lg:hidden text-blue-400 text-3xl focus:outline-none" aria-label="Open menu">
                 ☰
             </button>
-    
+
             <!-- Desktop Navigation -->
             <nav>
-                <ul id="menu" class="hidden md:flex space-x-6 text-lg">
+                <ul id="menu" class="hidden lg:flex space-x-6 text-lg">
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#competitive" class="nav-link">Competitive Coding</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
                     <li><a href="#experience" class="nav-link">Experience</a></li>
                     <li><a href="#qualification" class="nav-link">Qualification</a></li>
@@ -43,12 +48,14 @@
         </div>
     
         <!-- Mobile Dropdown Menu -->
-        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-gray-800 p-4 md:hidden opacity-0 scale-95 transform transition-all duration-300">
+        <div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-gray-800 p-4 lg:hidden opacity-0 scale-95 transform transition-all duration-300">
             <ul class="space-y-4 text-center">
                 <li><a href="#home" class="mobile-nav-link">Home</a></li>
                 <li><a href="#about" class="mobile-nav-link">About</a></li>
                 <li><a href="#competitive" class="mobile-nav-link">Competitive Coding</a></li>
                 <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+                <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
                 <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
                 <li><a href="#qualification" class="mobile-nav-link">Qualification</a></li>
                 <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
@@ -154,17 +161,17 @@
 
         <p class="text-lg md:text-xl mt-4 text-gray-300"
            data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-            A Currently Working as <span class="text-blue-400"> Chatbot Development @VMSBUTU </span> & 
-            <span class="text-blue-400">ML Intern @IIT Ropar</span>
+            Currently working as <span class="text-blue-400">AI Engineer @ Ashirvad by Aliaxis</span>, Bengaluru &amp;
+            <span class="text-blue-400">Technical Trainer (AI &amp; Generative AI) @ Marcello Tech</span>
         </p>
 
         <!-- Call to Action Buttons -->
-        <div class="mt-6 flex space-x-4"
+        <div class="mt-6 flex flex-wrap gap-4"
              data-aos="zoom-in" data-aos-duration="1400" data-aos-delay="400">
             <a href="assets/sakthivel.pdf" target="_blank" class="btn btn-resume">
                 <i class="fa-solid fa-file"></i> Resume
             </a>
-            <a href="https://www.linkedin.com/in/callmedataman/" target="_blank" class="btn btn-linkedin">
+            <a href="https://www.linkedin.com/in/smsakthivel/" target="_blank" class="btn btn-linkedin">
                 <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
             <a href="https://github.com/SAKTHIVEL-SEENIVASAN" target="_blank" class="btn btn-github">
@@ -228,7 +235,9 @@ strings: [
   "DataMan.",
   "a Data Engineer.",
   "an AI & ML Enthusiast.",
-  "turning data into solutions."
+  "turning data into solutions.",
+  "an AI Engineer.",
+  "building LLM & RAG systems."
 ]
 
 
@@ -1821,6 +1830,17 @@ particlesJS("particles-js", {
     filter: grayscale(0) brightness(1.1);
 }
 
+.project-image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2C3E50, #34495E);
+}
+.project-image-placeholder i {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 /* Animated Overlay */
 .image-overlay.animated-overlay {
     position: absolute;
@@ -2252,7 +2272,7 @@ particlesJS("particles-js", {
                 <div class="relative group z-10">
                     <!-- Dynamic Photo Gallery -->
                     <div id="dynamic-photo-container" class="relative w-full h-96 md:h-[500px] rounded-3xl overflow-hidden">
-                        <img id="dynamic-photo" src="assests/b.jpg" alt="SAKTHIVEL S M"
+                        <img id="dynamic-photo" src="assests/b.png" alt="SAKTHIVEL S M"
                              class="enhanced-photo w-full h-full object-cover transform transition-all duration-500 
                              hover:scale-110 hover:brightness-110">
                     </div>
@@ -2296,6 +2316,10 @@ particlesJS("particles-js", {
                             <span class="text-cyan-400 font-semibold">SAKTHIVEL S M </span><br/>
                             <span class="code-text">AI Engineer | Data Scientist | Automation Specialist</span>
                             <br/><br/>
+                            AI Engineer at Ashirvad by Aliaxis, developing enterprise Generative AI applications,
+                            LLM-powered assistants and document intelligence systems. Also a Technical Trainer in
+                            AI &amp; Generative AI at Marcello Tech, mentoring students through practical AI projects.
+                            <br/><br/>
                             Building intelligent systems with expertise in:
                         </p>
                         
@@ -2320,7 +2344,7 @@ particlesJS("particles-js", {
                                     <span class="tech-tag">Python</span>
                                 </div>
                             </div>
-                            
+
                             <div class="tech-category">
                                 <h4 class="category-title">📊 Data & Cloud</h4>
                                 <div class="tech-tags">
@@ -2328,6 +2352,16 @@ particlesJS("particles-js", {
                                     <span class="tech-tag">Cloud</span>
                                     <span class="tech-tag">Blockchain</span>
                                     <span class="tech-tag">Analytics</span>
+                                </div>
+                            </div>
+
+                            <div class="tech-category">
+                                <h4 class="category-title">✨ Generative AI</h4>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">RAG Pipelines</span>
+                                    <span class="tech-tag">BM25 + FAISS</span>
+                                    <span class="tech-tag">Reranking</span>
+                                    <span class="tech-tag">Prompt Engineering</span>
                                 </div>
                             </div>
                         </div>
@@ -2344,8 +2378,8 @@ particlesJS("particles-js", {
                                 <div class="stat-label">Projects</div>
                             </div>
                             <div class="stat-item">
-                                <div class="stat-number">5</div>
-                                <div class="stat-label">Awards</div>
+                                <div class="stat-number">9</div>
+                                <div class="stat-label">Awards &amp; Honours</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number">100%</div>
@@ -2361,7 +2395,7 @@ particlesJS("particles-js", {
 
                 <!-- Contact CTA -->
                 <div class="text-center">
-                    <a href="mailto:sakthivel@example.com" class="cta-button">
+                    <a href="mailto:thinkrecursive@gmail.com" class="cta-button">
                         <span class="button-icon">🚀</span>
                         Start AI Project
                         <span class="button-arrow">→</span>
@@ -2382,7 +2416,7 @@ particlesJS("particles-js", {
 
     // Dynamic Photo Gallery
     const imagePaths = [
-        'assests/b.jpg',
+        'assests/b.png',
         'assests/pic/WhatsApp Image 2025-10-19 at 6.45.21 PM.jpeg',
         'assests/pic/Screenshot_20251019_184046.png',
         'assests/pic/Screenshot_20251019_184022.png',
@@ -2872,12 +2906,14 @@ particlesJS("particles-js", {
 
         <!-- 🔥 LIVE HEATMAP BELOW ALL PLATFORMS 🔥 -->
         <div class="mt-16">
-            <h3 class="text-3xl font-bold text-white">My Progress Heatmap</h3>
-            <p class="text-gray-400 mt-2">Live visualization of my daily problem-solving activity.</p>
+            <h3 class="text-3xl font-bold text-white">My GitHub Contributions</h3>
+            <p class="text-gray-400 mt-2">Live contribution graph from my GitHub profile.</p>
 
-            <!-- GitHub-Like Contribution Graph -->
+            <!-- GitHub Contribution Graph -->
             <div class="mt-6">
-                <img id="heatmap" src="" alt="Competitive Programming Heatmap" class="mx-auto rounded-lg shadow-lg">
+                <a href="https://github.com/SAKTHIVEL-SEENIVASAN" target="_blank" rel="noopener">
+                    <img id="heatmap" src="https://ghchart.rshah.org/40916c/SAKTHIVEL-SEENIVASAN" alt="GitHub contribution graph for SAKTHIVEL-SEENIVASAN" loading="lazy" class="mx-auto rounded-lg shadow-lg max-w-full">
+                </a>
             </div>
         </div>
     </div>
@@ -2959,21 +2995,6 @@ particlesJS("competitive-particles", {
 });
 </script>
 
-<!-- Heatmap API (Using GitHub-Like Contribution Graph) -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const heatmapImg = document.getElementById("heatmap");
-
-    // Set your username below for fetching data from GitHub
-    const username = "your-github-username";
-
-    // Fetch the heatmap from an external service
-    heatmapImg.src = `https://ghchart.rshah.org/40916c/yashodipmore`;
-
-    // Alternative: Use LeetCode API (Requires setup)
-    // heatmapImg.src = `https://leetcode-stats-six.vercel.app/api?username=your-leetcode-username&theme=dark`;
-});
-</script>
 <!-- Projects Section -->
 <section id="projects" class="py-20 text-center px-6 relative overflow-hidden projects-dev-section">
     <!-- Grid Paper Background -->
@@ -3125,7 +3146,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <div class="card-content enhanced-content">
                     <div class="image-container parallax-container">
-                        <a href="assests/WhatsApp Image 2025-10-19 at 3.22.39 PM.jpeg" target="_blank">
+                        <a href="assests/pic/WhatsApp Image 2025-10-19 at 3.22.39 PM.jpeg" target="_blank">
                             <img src="assests/Screenshot_20251019_151511.png" alt="AgriWaste2Fuel" class="project-image floating-image">
                         </a>
                         <div class="image-overlay animated-overlay">
@@ -3136,11 +3157,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             </div>
                             <div class="overlay-stats">
                                 <div class="stat-item">
-                                    <span class="stat-number">🥇 3rd Place</span>
+                                    <span class="stat-number">🥉 3rd Place</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-label">₹75k for Internship</span>
-                                    <span class="stat-label">and ₹3lak for Hackthon</span>
+                                    <span class="stat-label">₹3,00,000 Hackathon Prize</span>
+                                    <span class="stat-label">+ ₹75,000 Funded Internship</span>
                                 </div>
                             </div>
                         </div>
@@ -3165,12 +3186,17 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <span class="link-text">GitHub Repository</span>
                                 <i class="fab fa-github link-icon"></i>
                             </a>
+                            <a href="https://agri-waste2-fuel-frontend-5857.vercel.app/" target="_blank" rel="noopener" class="project-link enhanced-link secondary-link">
+                                <div class="link-bg"></div>
+                                <span class="link-text">Live Demo</span>
+                                <i class="fas fa-external-link-alt link-icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="card-status">
                     <div class="status-dot active"></div>
-                    <span class="status-text">FIRST PRIZE</span>
+                    <span class="status-text">3RD PLACE · NATIONAL</span>
                 </div>
             </div>
 
@@ -3229,6 +3255,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <span class="tech-tag floating-tag">Data Analytics</span>
                         </div>
                         <div class="project-links">
+                            <!-- Hidden until a valid URL is supplied (repository returned 404; Concept Details had no link):
                             <a href="https://github.com/SAKTHIVEL-SEENIVASAN/AGRI-EYE-Floral-Focus" target="_blank" class="project-link enhanced-link">
                                 <div class="link-bg"></div>
                                 <span class="link-text">GitHub Repository</span>
@@ -3239,6 +3266,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <span class="link-text">Concept Details</span>
                                 <i class="fas fa-external-link-alt link-icon"></i>
                             </a>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -3383,7 +3411,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="card-content enhanced-content">
                     <div class="image-container parallax-container">
                         <div class="image-bg-layer"></div>
-                        <img src="assests/biocatch.png" alt="BioCatch Security System" class="project-image floating-image">
+                        <div class="project-image floating-image project-image-placeholder" role="img" aria-label="BioCatch Security System"><i class="fas fa-shield-alt"></i></div>
                         <div class="image-overlay animated-overlay">
                             <div class="overlay-ripple"></div>
                             <div class="overlay-icon floating-icon">
@@ -3412,10 +3440,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             <span class="tech-tag floating-tag">Security</span>
                             <span class="tech-tag floating-tag">Analytics</span>
                         </div>
-                        <a href="#" class="project-link enhanced-link">
+                        <a href="https://github.com/SAKTHIVEL-SEENIVASAN/BioCatch" target="_blank" rel="noopener" class="project-link enhanced-link">
                             <div class="link-bg"></div>
-                            <span class="link-text">Project Details</span>
-                            <i class="fas fa-external-link-alt link-icon"></i>
+                            <span class="link-text">GitHub Repository</span>
+                            <i class="fab fa-github link-icon"></i>
                         </a>
                     </div>
                 </div>
@@ -3478,6 +3506,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <span class="tech-tag floating-tag">Android</span>
                         </div>
                         <div class="project-links">
+                            <!-- Hidden until a valid URL is supplied (repository returned 404; Hackathon Details had no link):
                             <a href="https://github.com/SAKTHIVEL-SEENIVASAN/THOONDIL" target="_blank" class="project-link enhanced-link">
                                 <div class="link-bg"></div>
                                 <span class="link-text">GitHub Repository</span>
@@ -3488,6 +3517,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <span class="link-text">Hackathon Details</span>
                                 <i class="fas fa-external-link-alt link-icon"></i>
                             </a>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -3514,7 +3544,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="card-content enhanced-content">
                     <div class="image-container parallax-container">
                         <div class="image-bg-layer"></div>
-                        <img src="assests/computer-vision.png" alt="Computer Vision Projects" class="project-image floating-image">
+                        <div class="project-image floating-image project-image-placeholder" role="img" aria-label="Computer Vision Projects"><i class="fas fa-eye"></i></div>
                         <div class="image-overlay animated-overlay">
                             <div class="overlay-ripple"></div>
                             <div class="overlay-icon floating-icon">
@@ -3543,11 +3573,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <span class="tech-tag floating-tag">TensorFlow</span>
                             <span class="tech-tag floating-tag">Python</span>
                         </div>
+                        <!-- Hidden until a valid URL is supplied:
                         <a href="#" class="project-link enhanced-link">
                             <div class="link-bg"></div>
                             <span class="link-text">View Projects</span>
                             <i class="fas fa-external-link-alt link-icon"></i>
                         </a>
+                        -->
                     </div>
                 </div>
                 <div class="card-status">
@@ -3573,7 +3605,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="card-content enhanced-content">
                     <div class="image-container parallax-container">
                         <div class="image-bg-layer"></div>
-                        <img src="assests/nlp.png" alt="NLP Projects" class="project-image floating-image">
+                        <div class="project-image floating-image project-image-placeholder" role="img" aria-label="NLP Projects"><i class="fas fa-language"></i></div>
                         <div class="image-overlay animated-overlay">
                             <div class="overlay-ripple"></div>
                             <div class="overlay-icon floating-icon">
@@ -3602,11 +3634,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <span class="tech-tag floating-tag">NLTK</span>
                             <span class="tech-tag floating-tag">Python</span>
                         </div>
+                        <!-- Hidden until a valid URL is supplied:
                         <a href="#" class="project-link enhanced-link">
                             <div class="link-bg"></div>
                             <span class="link-text">Explore NLP</span>
                             <i class="fas fa-external-link-alt link-icon"></i>
                         </a>
+                        -->
                     </div>
                 </div>
                 <div class="card-status">
@@ -3632,7 +3666,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="card-content enhanced-content">
                     <div class="image-container parallax-container">
                         <div class="image-bg-layer"></div>
-                        <img src="assests/deep-learning.png" alt="Deep Learning Projects" class="project-image floating-image">
+                        <div class="project-image floating-image project-image-placeholder" role="img" aria-label="Deep Learning Projects"><i class="fas fa-brain"></i></div>
                         <div class="image-overlay animated-overlay">
                             <div class="overlay-ripple"></div>
                             <div class="overlay-icon floating-icon">
@@ -3661,11 +3695,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <span class="tech-tag floating-tag">TensorFlow</span>
                             <span class="tech-tag floating-tag">Python</span>
                         </div>
+                        <!-- Hidden until a valid URL is supplied:
                         <a href="#" class="project-link enhanced-link">
                             <div class="link-bg"></div>
                             <span class="link-text">Deep Learning</span>
                             <i class="fas fa-external-link-alt link-icon"></i>
                         </a>
+                        -->
                     </div>
                 </div>
                 <div class="card-status">
@@ -3783,6 +3819,292 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 </style>
 
+<!-- Achievements & Recognition Section -->
+<section id="achievements" class="py-20 text-center px-6 relative overflow-hidden" style="background: linear-gradient(135deg, #2C3E50, #34495E);">
+    <!-- Graph Paper Grid Background (Like Hero Section) -->
+    <div class="absolute inset-0 w-full h-full graph-paper-grid"></div>
+
+    <div class="relative container mx-auto z-10">
+        <h2 class="text-4xl md:text-5xl font-bold text-white tracking-wide mb-6" data-aos="fade-up" data-aos-duration="1500">
+            🏆 Achievements &amp; Recognition
+        </h2>
+        <p class="mt-2 text-gray-200 text-lg max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+            National hackathon results, academic honours and moments from award ceremonies. Tap any photo to view it full size.
+        </p>
+
+        <!-- Event Photo Gallery -->
+        <div class="achv-grid mt-12">
+            <figure class="achv-card" data-aos="zoom-in">
+                <a href="assests/event-photos/5.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/5.jpeg" loading="lazy" decoding="async" width="1126" height="1397"
+                         alt="Achariya College poster congratulating S M Sakthivel on securing 3rd place and a ₹3 lakh cash prize at the ANNAM.AI Hackathon 2025, organised by IIT Ropar">
+                </a>
+                <figcaption>
+                    <h3>3rd Place — ANNAM.AI Hackathon 2025</h3>
+                    <p>IIT Ropar · Ministry of Education · ₹3,00,000 prize</p>
+                </figcaption>
+            </figure>
+
+            <figure class="achv-card" data-aos="zoom-in" data-aos-delay="100">
+                <a href="assests/event-photos/2.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/2.jpeg" loading="lazy" decoding="async" width="1122" height="1402"
+                         alt="Achariya College poster congratulating S M Sakthivel on selection to the final round of the ANNAM.AI Hackathon 2025, IIT Ropar, with the team awarded ₹75,000 for their project">
+                </a>
+                <figcaption>
+                    <h3>Final Round — ANNAM.AI Hackathon 2025</h3>
+                    <p>IIT Ropar · Team awarded ₹75,000 for the project</p>
+                </figcaption>
+            </figure>
+
+            <figure class="achv-card" data-aos="zoom-in" data-aos-delay="200">
+                <a href="assests/event-photos/1751467345275.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/1751467345275.jpeg" loading="lazy" decoding="async" width="1002" height="1249"
+                         alt="Achariya College poster congratulating S M Sakthivel on securing 1st place in the TechXplore25 project contest at Mailam Engineering College">
+                </a>
+                <figcaption>
+                    <h3>1st Place — TechXplore25 Project Contest</h3>
+                    <p>Mailam Engineering College</p>
+                </figcaption>
+            </figure>
+
+            <figure class="achv-card" data-aos="zoom-in">
+                <a href="assests/event-photos/4.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/4.jpeg" loading="lazy" decoding="async" width="1600" height="815"
+                         alt="Team Trinetra AI on stage with organisers at the FuturePreneur 2024-25 Grand Finale, Rajalakshmi Institute of Technology">
+                </a>
+                <figcaption>
+                    <h3>FuturePreneur 2024-25 Grand Finale</h3>
+                    <p>Rajalakshmi Institute of Technology · Team Trinetra AI</p>
+                </figcaption>
+            </figure>
+
+            <figure class="achv-card" data-aos="zoom-in" data-aos-delay="100">
+                <a href="assests/event-photos/3.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/3.jpeg" loading="lazy" decoding="async" width="1363" height="1154"
+                         alt="Sakthivel receiving a letter at the Development Commissioner office, Ministry of MSME">
+                </a>
+                <figcaption>
+                    <h3>Ministry of MSME</h3>
+                    <p>Development Commissioner (MSME) office</p>
+                </figcaption>
+            </figure>
+
+            <figure class="achv-card" data-aos="zoom-in" data-aos-delay="200">
+                <a href="assests/event-photos/1.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/1.jpeg" loading="lazy" decoding="async" width="1600" height="715"
+                         alt="Sakthivel receiving an award envelope on stage at a college event">
+                </a>
+                <figcaption>
+                    <h3>Award Recognition</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="achv-card" data-aos="zoom-in">
+                <a href="assests/event-photos/5.5.jpeg" class="achv-link" target="_blank" rel="noopener">
+                    <img src="assests/event-photos/5.5.jpeg" loading="lazy" decoding="async" width="1334" height="1179"
+                         alt="Sakthivel receiving a certificate on stage at an award ceremony">
+                </a>
+                <figcaption>
+                    <h3>Award Recognition</h3>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!-- Honours List -->
+        <div class="achv-honours mt-16" data-aos="fade-up">
+            <h3 class="text-3xl font-bold text-white mb-8">Awards &amp; Honours</h3>
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-left">
+                <li><i class="fas fa-medal"></i><span><strong>Gold Rank — Top 5</strong> in AI &amp; Data Science, Pondicherry University</span></li>
+                <li><i class="fas fa-trophy"></i><span><strong>3rd Place — ANNAM.AI Hackathon 2025</strong>, IIT Ropar: ₹3,00,000 prize + ₹75,000 funded research internship</span></li>
+                <li><i class="fas fa-trophy"></i><span><strong>1st Place — TechXplore25</strong> project contest</span></li>
+                <li><i class="fas fa-award"></i><span><strong>Runner-Up — Smart City Hackathon</strong></span></li>
+                <li><i class="fas fa-lightbulb"></i><span><strong>Best Innovation Award — Eureka 3.0</strong></span></li>
+                <li><i class="fas fa-award"></i><span><strong>FuturePreneur 2024-25 Grand Finale</strong> — Team Trinetra AI</span></li>
+                <li><i class="fas fa-award"></i><span><strong>National IMPACTX Innovation Hackathon 2K25</strong> — ₹4,000 cash prize</span></li>
+                <li><i class="fas fa-award"></i><span><strong>Runner-Up — Yi Yuva Future 5.0</strong></span></li>
+                <li><i class="fas fa-star"></i><span><strong>Department Top Performer</strong> — Artificial Intelligence &amp; Data Science</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Full-Size Image Viewer -->
+    <dialog id="achv-lightbox" class="achv-lightbox" aria-label="Achievement photo viewer">
+        <button type="button" class="achv-close" aria-label="Close viewer"><i class="fas fa-times"></i></button>
+        <button type="button" class="achv-nav achv-prev" aria-label="Previous photo"><i class="fas fa-chevron-left"></i></button>
+        <figure>
+            <img id="achv-lightbox-img" src="" alt="">
+            <figcaption id="achv-lightbox-caption"></figcaption>
+        </figure>
+        <button type="button" class="achv-nav achv-next" aria-label="Next photo"><i class="fas fa-chevron-right"></i></button>
+    </dialog>
+</section>
+
+<style>
+.achv-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2rem;
+}
+.achv-card {
+    margin: 0;
+    background: rgba(31, 41, 55, 0.6);
+    border: 1px solid rgba(250, 204, 21, 0.45);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.achv-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(250, 204, 21, 0.25);
+}
+.achv-link {
+    display: block;
+    aspect-ratio: 4 / 3;
+    background: rgba(0, 0, 0, 0.35);
+    cursor: zoom-in;
+}
+.achv-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.achv-link:focus-visible {
+    outline: 3px solid #facc15;
+    outline-offset: -3px;
+}
+.achv-card figcaption {
+    padding: 1rem 1.25rem 1.25rem;
+    text-align: left;
+}
+.achv-card figcaption h3 {
+    color: #fde047;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+.achv-card figcaption p {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+.achv-honours li {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    background: rgba(31, 41, 55, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    color: #e5e7eb;
+}
+.achv-honours li i {
+    color: #facc15;
+    margin-top: 0.2rem;
+}
+.achv-honours li strong {
+    color: #fff;
+}
+
+/* Full-size viewer */
+.achv-lightbox {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.achv-lightbox[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.achv-lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.9);
+}
+.achv-lightbox figure {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+}
+.achv-lightbox img {
+    max-width: 100%;
+    max-height: 82vh;
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+.achv-lightbox figcaption {
+    margin-top: 0.75rem;
+    color: #e5e7eb;
+}
+.achv-close, .achv-nav {
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 1.2rem;
+    z-index: 2;
+}
+.achv-close:hover, .achv-nav:hover {
+    background: rgba(250, 204, 21, 0.85);
+    color: #000;
+}
+.achv-close { top: 1rem; right: 1rem; }
+.achv-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.achv-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+
+@media (prefers-reduced-motion: reduce) {
+    .achv-card, .achv-card:hover { transition: none; transform: none; }
+}
+</style>
+
+<script>
+(function () {
+    const links = Array.from(document.querySelectorAll('.achv-link'));
+    const box = document.getElementById('achv-lightbox');
+    if (!links.length || !box || typeof box.showModal !== 'function') return; // fall back to plain links
+
+    const img = document.getElementById('achv-lightbox-img');
+    const caption = document.getElementById('achv-lightbox-caption');
+    let current = 0;
+
+    function show(i) {
+        current = (i + links.length) % links.length;
+        const link = links[current];
+        const thumb = link.querySelector('img');
+        const title = link.closest('figure').querySelector('figcaption h3');
+        img.src = link.getAttribute('href');
+        img.alt = thumb.alt;
+        caption.textContent = title ? title.textContent : '';
+    }
+
+    links.forEach((link, i) => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            show(i);
+            box.showModal();
+        });
+    });
+
+    box.querySelector('.achv-close').addEventListener('click', () => box.close());
+    box.querySelector('.achv-prev').addEventListener('click', () => show(current - 1));
+    box.querySelector('.achv-next').addEventListener('click', () => show(current + 1));
+    box.addEventListener('click', (e) => { if (e.target === box) box.close(); });
+    box.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') show(current - 1);
+        if (e.key === 'ArrowRight') show(current + 1);
+    });
+    box.addEventListener('close', () => links[current].focus());
+})();
+</script>
+
 <!-- Skills Section - Universe Galaxy Theme -->
 <section id="skills" class="galaxy-skills-section relative overflow-hidden">
     <!-- Galaxy Background Effects -->
@@ -3850,6 +4172,11 @@ document.addEventListener("DOMContentLoaded", function () {
             <button class="galaxy-tab" onclick="showGalaxySkills('ai')" data-aos="zoom-in" data-aos-delay="400">
                 <div class="tab-icon">🤖</div>
                 <span>AI/ML</span>
+                <div class="tab-orbit"></div>
+            </button>
+            <button class="galaxy-tab" onclick="showGalaxySkills('genai')" data-aos="zoom-in" data-aos-delay="450">
+                <div class="tab-icon">✨</div>
+                <span>GenAI &amp; LLMs</span>
                 <div class="tab-orbit"></div>
             </button>
             <button class="galaxy-tab" onclick="showGalaxySkills('electrical')" data-aos="zoom-in" data-aos-delay="500">
@@ -4080,6 +4407,75 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="planet-ring"></div>
                         <div class="skill-tooltip">Natural Language Processing</div>
                         <div class="skill-name">NLP</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GenAI & LLM Skills Galaxy -->
+            <div id="genai" class="skill-galaxy" data-aos="fade-up" data-aos-duration="1500">
+                <div class="galaxy-center">
+                    <h3 class="constellation-title">✨ GenAI &amp; LLMs</h3>
+                    <div class="constellation-subtitle">Retrieval &amp; Generation</div>
+                </div>                <div class="skill-orbit orbit-1">
+                    <div class="skill-planet" data-skill="Large Language Models">
+                        <div class="planet-core llm-planet">
+                            <i class="fas fa-comments planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">LLMs, Prompt Engineering &amp; LLM Evaluation</div>
+                        <div class="skill-name">LLMs</div>
+                    </div>
+                    <div class="skill-planet" data-skill="RAG Pipelines">
+                        <div class="planet-core rag-planet">
+                            <i class="fas fa-book-open planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">RAG Pipelines: ingestion, chunking, embeddings, grounded Q&amp;A</div>
+                        <div class="skill-name">RAG</div>
+                    </div>
+                </div>
+                <div class="skill-orbit orbit-2">
+                    <div class="skill-planet" data-skill="BM25">
+                        <div class="planet-core search-planet">
+                            <i class="fas fa-search planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">BM25 Keyword Retrieval</div>
+                        <div class="skill-name">BM25</div>
+                    </div>
+                    <div class="skill-planet" data-skill="FAISS">
+                        <div class="planet-core vector-planet">
+                            <i class="fas fa-project-diagram planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">FAISS Vector Search &amp; Embeddings</div>
+                        <div class="skill-name">FAISS</div>
+                    </div>
+                    <div class="skill-planet" data-skill="Reranking">
+                        <div class="planet-core rerank-planet">
+                            <i class="fas fa-sort-amount-down planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">Reranking for Retrieval Quality</div>
+                        <div class="skill-name">Reranking</div>
+                    </div>
+                </div>
+                <div class="skill-orbit orbit-3">
+                    <div class="skill-planet" data-skill="FastAPI">
+                        <div class="planet-core fastapi-planet">
+                            <i class="fas fa-bolt planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">FastAPI Backend APIs</div>
+                        <div class="skill-name">FastAPI</div>
+                    </div>
+                    <div class="skill-planet" data-skill="Next.js">
+                        <div class="planet-core next-planet">
+                            <i class="fas fa-window-maximize planet-icon"></i>
+                        </div>
+                        <div class="planet-ring"></div>
+                        <div class="skill-tooltip">Next.js, React &amp; TypeScript UIs</div>
+                        <div class="skill-name">Next.js</div>
                     </div>
                 </div>
             </div>
@@ -4838,6 +5234,13 @@ document.addEventListener("DOMContentLoaded", function () {
 .embedded-planet { background: radial-gradient(circle at 30% 30%, #fd79a8, #e84393); }
 .iot-planet { background: radial-gradient(circle at 30% 30%, #55a3ff, #2d96ff); }
 .matlab-planet { background: radial-gradient(circle at 30% 30%, #ff7675, #e17055); }
+.llm-planet { background: radial-gradient(circle at 30% 30%, #a78bfa, #7c3aed); }
+.rag-planet { background: radial-gradient(circle at 30% 30%, #f472b6, #db2777); }
+.search-planet { background: radial-gradient(circle at 30% 30%, #fbbf24, #d97706); }
+.vector-planet { background: radial-gradient(circle at 30% 30%, #60a5fa, #2563eb); }
+.rerank-planet { background: radial-gradient(circle at 30% 30%, #34d399, #059669); }
+.fastapi-planet { background: radial-gradient(circle at 30% 30%, #2dd4bf, #009688); }
+.next-planet { background: radial-gradient(circle at 30% 30%, #6b7280, #111827); }
 
 /* Responsive Design */
 @media (max-width: 1200px) {
@@ -5039,69 +5442,131 @@ document.head.appendChild(planetStyle);
       A timeline highlighting my journey in AI, Open Source, and leadership — combining research, development, and real-world impact.
     </p>
 
-    <!-- Timeline -->
+    <!-- Timeline (single column on mobile, alternating from md up) -->
     <div class="relative mt-12 max-w-4xl mx-auto">
       <!-- Vertical Line -->
-      <div class="absolute w-1 h-full bg-gray-400 left-1/2 transform -translate-x-1/2"></div>
+      <div class="absolute w-1 h-full bg-gray-400 left-4 md:left-1/2 transform -translate-x-1/2"></div>
+
+      <!-- AI Engineer @ Ashirvad by Aliaxis -->
+      <div class="relative flex items-center justify-between mb-12" data-aos="fade-right" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-0 md:pr-8 md:text-right">
+          <h3 class="text-xl md:text-2xl font-bold text-yellow-400">AI Engineer @Ashirvad by Aliaxis, Bengaluru</h3>
+          <p class="text-gray-300 mt-2">Developing secure, cost-effective Generative AI solutions for enterprise workflows: LLM-powered assistants and document intelligence systems for company policies and internal knowledge bases. Building RAG pipelines that combine BM25 keyword retrieval, FAISS vector search and reranking, with FastAPI backends and Next.js, React &amp; TypeScript interfaces, plus authentication, RBAC, automated testing and retrieval benchmarking.</p>
+          <p class="text-gray-400 mt-2">Jul 2026 – Present</p>
+        </div>
+        <div class="w-5 h-5 bg-yellow-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
+      </div>
+
+      <!-- Technical Trainer @ Marcello Tech -->
+      <div class="relative flex items-center justify-between mb-12 md:flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-8">
+          <h3 class="text-xl md:text-2xl font-bold text-pink-400">Technical Trainer — AI &amp; Generative AI @Marcello Tech (Remote)</h3>
+          <p class="text-gray-300 mt-2">Delivering instructor-led training in AI, Machine Learning, Python, SQL and Generative AI to undergraduates and fresh graduates. Preparing course plans, notebooks, coding exercises and projects; teaching prompt engineering, RAG, AI agents, embeddings and vector databases; mentoring learners and conducting coding assessments.</p>
+          <p class="text-gray-400 mt-2">Jun 2026 – Present</p>
+        </div>
+        <div class="w-5 h-5 bg-pink-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
+      </div>
+
+      <!-- AI & ML Trainee @ Besant Technologies -->
+      <div class="relative flex items-center justify-between mb-12" data-aos="fade-right" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-0 md:pr-8 md:text-right">
+          <h3 class="text-xl md:text-2xl font-bold text-cyan-400">AI &amp; Machine Learning Trainee @Besant Technologies, Bengaluru</h3>
+          <p class="text-gray-300 mt-2">Practical training across Python, SQL, statistics and the ML lifecycle. Built and evaluated regression and classification models (decision trees, ensembles) and studied neural network and CNN fundamentals through hands-on mini-projects.</p>
+          <p class="text-gray-400 mt-2">Mar 2026 – Jun 2026</p>
+        </div>
+        <div class="w-5 h-5 bg-cyan-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
+      </div>
+
+      <!-- AI Engineer Intern @ Aiseri Lab -->
+      <div class="relative flex items-center justify-between mb-12 md:flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-8">
+          <h3 class="text-xl md:text-2xl font-bold text-indigo-400">AI Engineer Intern @Aiseri Lab — SolarMind AI</h3>
+          <p class="text-gray-300 mt-2">Built SolarMind AI, an intelligent solar analytics platform: a time-series ML pipeline detecting anomalies in solar PV data, SQL and Pandas feature engineering, and an Ollama-based LLM workflow generating automated reports, connected end-to-end from ingestion to inference.</p>
+          <p class="mt-2"><a href="https://github.com/SAKTHIVEL-SEENIVASAN/solarproject" target="_blank" rel="noopener" class="text-blue-400 hover:underline"><i class="fab fa-github"></i> SolarMind AI on GitHub</a></p>
+          <p class="text-gray-400 mt-2">Jan 2026 – Jun 2026</p>
+        </div>
+        <div class="w-5 h-5 bg-indigo-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
+      </div>
+
+      <!-- Student Project Mentor -->
+      <div class="relative flex items-center justify-between mb-12" data-aos="fade-right" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-0 md:pr-8 md:text-right">
+          <h3 class="text-xl md:text-2xl font-bold text-lime-400">Student Project Mentor — AI &amp; ML @Achariya College</h3>
+          <p class="text-gray-300 mt-2">Mentoring undergraduate teams on AI, ML, Python, SQL and Data Science projects for academic and hackathon competitions — from problem definition and datasets to model evaluation, deployment and documentation.</p>
+          <p class="text-gray-400 mt-2">2025 – Present</p>
+        </div>
+        <div class="w-5 h-5 bg-lime-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
+      </div>
+
+      <!-- Automation Engineering Intern @ MSME -->
+      <div class="relative flex items-center justify-between mb-12 md:flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-8">
+          <h3 class="text-xl md:text-2xl font-bold text-amber-400">Automation Engineering Intern @MSME, Government of India</h3>
+          <p class="text-gray-300 mt-2">Automated document workflows using Python, saving 20+ hours weekly, processing 500+ docs daily. Built PDF extraction and reporting dashboard, cutting report time from 4 hours to 15 minutes. Implemented error handling, decreasing process failures by 90%.</p>
+          <p class="text-gray-400 mt-2">Jan 2025</p>
+        </div>
+        <div class="w-5 h-5 bg-amber-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
+      </div>
 
       <!-- Project Lead @ UTU -->
       <div class="relative flex items-center justify-between mb-12" data-aos="fade-right" data-aos-duration="1500">
-        <div class="w-1/2 pr-8 text-right">
-          <h3 class="text-2xl font-bold text-yellow-400">Project Lead @Trinetra AI, Veer Madho Singh Bhandari UTU</h3>
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-0 md:pr-8 md:text-right">
+          <h3 class="text-xl md:text-2xl font-bold text-yellow-400">Project Lead @Trinetra AI, Veer Madho Singh Bhandari UTU</h3>
           <p class="text-gray-300 mt-2">Selected as one of 46 top national teams in Deep-Shiva 2025. Leading an LLM-powered chatbot project under the Tourism category.</p>
-          <p class="text-gray-400 mt-2">July 2025 – Present</p>
+          <p class="text-gray-400 mt-2">July 2025</p>
         </div>
-        <div class="w-5 h-5 bg-yellow-400 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
+        <div class="w-5 h-5 bg-yellow-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
       </div>
 
       <!-- ANNAM.AI Internship -->
-      <div class="relative flex items-center justify-between mb-12 flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
-        <div class="w-1/2 pl-8 text-left">
-          <h3 class="text-2xl font-bold text-green-400">Hackathon-Based Intern @ANNAM.AI, IIT Ropar</h3>
+      <div class="relative flex items-center justify-between mb-12 md:flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-8">
+          <h3 class="text-xl md:text-2xl font-bold text-green-400">AI Research Intern @ANNAM.AI, IIT Ropar</h3>
           <p class="text-gray-300 mt-2">Working on “AgriWaste2Fuel” — using AI to convert agricultural waste into eco-friendly fuel. Collaborating on sustainable solutions in agriculture and energy.</p>
-          <p class="text-gray-400 mt-2">May 2025 – Present</p>
+          <p class="text-gray-300 mt-2">Developed Agri-Waste2Fuel, a multimodal classification pipeline combining YOLOv8 and structured inputs; reported 92.4% accuracy and an F1-score of 0.91. Created a recommendation engine for biogas, compost, and biofuel pathways using priority scoring and rule-based optimization. Developed carbon-emission regression models and evaluated predictions using MAE and RMSE. Contributed to the full-stack application using FastAPI, React, PostgreSQL, and Firebase. Supported the end-to-end workflow from data preparation and model development to deployment and automated reporting. ₹3,00,000 prize + ₹75,000 funded internship.</p>
+          <p class="text-gray-400 mt-2">Jan 2025 – Dec 2025</p>
         </div>
-        <div class="w-5 h-5 bg-green-400 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
+        <div class="w-5 h-5 bg-green-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
       </div>
 
       <!-- Student President R&D Club -->
       <div class="relative flex items-center justify-between mb-12" data-aos="fade-right" data-aos-duration="1500">
-        <div class="w-1/2 pr-8 text-right">
-          <h3 class="text-2xl font-bold text-blue-400">Student President — R&D Club @Achariya College</h3>
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-0 md:pr-8 md:text-right">
+          <h3 class="text-xl md:text-2xl font-bold text-blue-400">Student President — R&D Club @Achariya College</h3>
           <p class="text-gray-300 mt-2">Leading 30+ students in innovation projects, workshops, and hackathons including Smart India Hackathon 2025. Guiding research and prototyping initiatives.</p>
-          <p class="text-gray-400 mt-2">Aug 2024 – Present</p>
+          <p class="text-gray-400 mt-2">Aug 2024</p>
         </div>
-        <div class="w-5 h-5 bg-blue-400 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
+        <div class="w-5 h-5 bg-blue-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
       </div>
 
       <!-- Full Stack Engineer -->
-      <div class="relative flex items-center justify-between mb-12 flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
-        <div class="w-1/2 pl-8 text-left">
-          <h3 class="text-2xl font-bold text-orange-400">Full Stack Engineer @ABM BM Academy</h3>
+      <div class="relative flex items-center justify-between mb-12 md:flex-row-reverse" data-aos="fade-left" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-8">
+          <h3 class="text-xl md:text-2xl font-bold text-orange-400">Full Stack Engineer @ABM BM Academy</h3>
           <p class="text-gray-300 mt-2">Developed and maintained web applications for educational use. Grateful for the mentorship and hands-on learning experience.</p>
           <p class="text-gray-400 mt-2">Sep 2025 – Oct 2025</p>
         </div>
-        <div class="w-5 h-5 bg-orange-400 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
+        <div class="w-5 h-5 bg-orange-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
       </div>
 
       <!-- Open Source Developer -->
       <div class="relative flex items-center justify-between mb-12" data-aos="fade-right" data-aos-duration="1500">
-        <div class="w-1/2 pr-8 text-right">
-          <h3 class="text-2xl font-bold text-teal-400">Open Source Developer @FOSSA & FHSM</h3>
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-0 md:pr-8 md:text-right">
+          <h3 class="text-xl md:text-2xl font-bold text-teal-400">Open Source Developer @FOSSA & FHSM</h3>
           <p class="text-gray-300 mt-2">Contributed to open-source government and community tech projects in Cuddalore and Puducherry, enhancing public digital systems.</p>
-          <p class="text-gray-400 mt-2">2024 – Present</p>
+          <p class="text-gray-400 mt-2">2024</p>
         </div>
-        <div class="w-5 h-5 bg-teal-400 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
+        <div class="w-5 h-5 bg-teal-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
       </div>
 
       <!-- Freelance Web Developer -->
-      <div class="relative flex items-center justify-between mb-12 flex-row-reverse" data-aos="fade-up" data-aos-duration="1500">
-        <div class="w-1/2 pl-8 text-left">
-          <h3 class="text-2xl font-bold text-purple-400">Freelance @ DataMan</h3>
+      <div class="relative flex items-center justify-between mb-12 md:flex-row-reverse" data-aos="fade-up" data-aos-duration="1500">
+        <div class="w-full pl-12 text-left md:w-1/2 md:pl-8">
+          <h3 class="text-xl md:text-2xl font-bold text-purple-400">Freelance @ DataMan</h3>
           <p class="text-gray-300 mt-2">Designed and deployed responsive websites for small businesses and startups, focusing on performance and UI/UX.</p>
-          <p class="text-gray-400 mt-2">2023 – Present</p>
+          <p class="text-gray-400 mt-2">2023</p>
         </div>
-        <div class="w-5 h-5 bg-purple-400 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
+        <div class="w-5 h-5 bg-purple-400 rounded-full absolute left-4 md:left-1/2 transform -translate-x-1/2"></div>
       </div>
     </div>
   </div>
@@ -5133,10 +5598,11 @@ document.head.appendChild(planetStyle);
                         <img src="assests/Screenshot_20251019_232242.png" alt="Achariya College of Engineering Technology, Puducherry" class="college-img">
                         <h3 class="text-3xl font-bold text-yellow-300 mt-4">🎓 B.Tech AI & DS</h3>
                         <p class="text-gray-200 mt-2">Achariya College of Engineering Technology, Puducherry</p>
-                        <p class="text-gray-400 mt-2">📅 2022 - Present</p>
+                        <p class="text-gray-400 mt-2">📅 2022 – 2026</p>
                     </div>
                     <div class="certificate-back">
                         <p class="text-lg text-white">Artificial Intelligence and Data Science</p>
+                        <p class="text-yellow-300 mt-2">CGPA 8.49/10 · Gold Rank, Top 5 in Department</p>
                         <p class="text-gray-300 mt-2">🔹 AI/ML Engineering | 🔹 Data Engineering | 🔹 Competitive Coding</p>
                     </div>
                 </div>
@@ -5170,6 +5636,10 @@ document.head.appendChild(planetStyle);
                         <p class="text-lg text-white">✅ Postman API Expert</p>
                         <p class="text-gray-300 mt-2">✅ Cloud Computing (IBM)</p>
                         <p class="text-gray-300 mt-2">✅ Additional Certifications</p>
+                        <p class="text-gray-300 mt-2">✅ Big Data Computing – IIT Kanpur</p>
+                        <p class="text-gray-300 mt-2">✅ MongoDB Certified Developer Associate</p>
+                        <p class="text-gray-300 mt-2">✅ CII-Eaton Talent Development Program</p>
+                        <p class="text-gray-300 mt-2">✅ Agentic AI Day Participant</p>
                     </div>
                 </div>
             </div>
@@ -5281,7 +5751,8 @@ document.head.appendChild(planetStyle);
 
         <!-- Contact Details -->
         <div class="mt-8 text-gray-300">
-            <p class="text-xl"><strong>📧 Email:</strong> <a href="mailto:s.m.sakthivelofficial@gmail.com" class="text-yellow-400 hover:underline">s.m.sakthivelofficial@gmail.com</a></p>
+            <p class="text-xl"><strong>📧 Email:</strong> <a href="mailto:thinkrecursive@gmail.com" class="text-yellow-400 hover:underline">thinkrecursive@gmail.com</a></p>
+            <p class="text-xl mt-2"><strong>📞 Phone:</strong> <a href="tel:+919342192478" class="text-yellow-400 hover:underline">+91 9342192478</a></p>
         </div>
 
         <!-- Social Icons -->
@@ -5290,14 +5761,12 @@ document.head.appendChild(planetStyle);
                 class="text-gray-300 hover:text-yellow-400 transition duration-300 transform hover:scale-110">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/callmedataman/" target="_blank"
+            <a href="https://www.linkedin.com/in/smsakthivel/" target="_blank"
                 class="text-gray-300 hover:text-yellow-400 transition duration-300 transform hover:scale-110">
                 <i class="fab fa-linkedin"></i>
             </a>
         </div>
     </div>
-=
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <script>
         const form = document.getElementById('contactForm');
@@ -5381,7 +5850,7 @@ particlesJS("contact-particles", {
 <footer class="bg-gray-900 text-gray-300 py-6 text-center">
     <div class="container mx-auto">
         <p class="text-lg">Designed & Built by <span class="text-yellow-400 font-semibold">SAKTHIVEL S M</span> ❤️</p>
-        <p class="mt-1 text-sm opacity-80">© 2025 SAKTHIVEL S M. All Rights Reserved.</p>
+        <p class="mt-1 text-sm opacity-80">© 2026 SAKTHIVEL S M. All Rights Reserved.</p>
     </div>
 </footer>
 
@@ -5971,7 +6440,7 @@ footer {
 
 /* small screens */
 @media (max-width:420px){
-  .chat-window{right:12px;left:12px;width:auto;height:70vh;}
+  .chat-window{position:fixed;right:12px;left:12px;bottom:96px;width:auto;height:70vh;}
   .chat-toggle{right:12px;bottom:12px;}
 }
 </style>
@@ -6045,23 +6514,40 @@ class SakthiAI {
     // Strong, personalized knowledge base tailored to your profile and motive
     this.knowledgeBase = {
       experience: {
-        keywords: ['experience','work','career','intern','lead','project lead','project','role'],
+        keywords: ['experience','work','career','intern','lead','project lead','job','company','ashirvad','aliaxis','trainer','role'],
         response: `**SAKTHIVEL S M  — Experience Snapshot**
 
+• **AI Engineer — Ashirvad by Aliaxis, Bengaluru** (Jul 2026 — Present)
+  Enterprise Generative AI: LLM-powered assistants and document intelligence, RAG with BM25 + FAISS + reranking, FastAPI backends and Next.js/React/TypeScript UIs.
+
+• **Technical Trainer — AI & Generative AI, Marcello Tech** (Jun 2026 — Present)
+  Instructor-led training in AI, ML, Python, SQL and GenAI; mentoring learners through projects.
+
+• **AI & ML Trainee — Besant Technologies** (Mar 2026 — Jun 2026)
+
+• **AI Engineer Intern — Aiseri Lab** (Jan 2026 — Jun 2026)
+  Built SolarMind AI: time-series anomaly detection for solar PV data with LLM-generated reports.
+
+• **Student Project Mentor — AI & ML, Achariya College** (2025 — Present)
+
+• **Automation Engineering Intern — MSME, Government of India** (Jan 2025)
+  Automated document workflows using Python, saving 20+ hours weekly.
+
 • **Project Lead — Trinetra AI (Veer Madho Singh Bhandari UTU)**  
-  Leading an LLM-powered tourism chatbot; coordinating cross-functional AI/ML and frontend/backend development. (Jul 2025 — Present)
+  Leading an LLM-powered tourism chatbot; coordinating cross-functional AI/ML and frontend/backend development. (Jul 2025)
 
 • **AI Research Intern — ANNAM.AI, IIT Ropar**  
-  Hackathon-style internship working on AgriWaste2Fuel — AI-driven optimization for converting agri-waste to eco-fuel. (May 2025 — Present)
+  Hackathon-style internship working on AgriWaste2Fuel — AI-driven optimization for converting agri-waste to eco-fuel. (Jan 2025 — Dec 2025)
+  Agri-Waste2Fuel: YOLOv8 multimodal pipeline (92.4% accuracy, F1 0.91). ₹3,00,000 prize + ₹75,000 funded internship.
 
 • **Student President — R&D Club (Achariya College)**  
-  Mentored 30+ students, organized workshops & prepared teams for national hackathons. (Aug 2024 — Present)
+  Mentored 30+ students, organized workshops & prepared teams for national hackathons. (Aug 2024)
 
 • **Open Source Contributor (FOSSA @ Cuddalore, FHSM @ Puducherry)**  
-  Contributing to public-good tech and govtech solutions (2024 — Present)
+  Contributing to public-good tech and govtech solutions (2024)
 
 • **Freelance Web Developer / Full Stack**  
-  Built responsive web apps and data-driven dashboards for SMEs and projects (2023 — Present)
+  Built responsive web apps and data-driven dashboards for SMEs and projects (2023)
 
 If you want details on any role, ask me for specific contributions or projects.`
       },
@@ -6076,15 +6562,22 @@ If you want details on any role, ask me for specific contributions or projects.`
 • **Frontend / Full-stack:** React.js, Tailwind CSS, responsive UI design.  
 • **ML Libraries:** TensorFlow, PyTorch, Hugging Face Transformers, Pandas, NumPy.  
 • **Dev & Deployment:** Git, Docker, cloud basics (AWS/GCP), CI pipelines.  
-• **Soft skills:** Project leadership, team coordination, mentoring, presenting to stakeholders.`
+• **Soft skills:** Project leadership, team coordination, mentoring, presenting to stakeholders.  
+• **Generative AI & LLMs:** LLMs, RAG pipelines, prompt engineering, embeddings, vector search, reranking, LLM evaluation, hallucination mitigation.
+• **Retrieval & Databases:** BM25, FAISS, PostgreSQL, MySQL, Firebase.
+• **Machine Learning & Vision:** Regression, classification, feature engineering, time-series analysis, CNNs, YOLOv8, anomaly detection.
+• **Frameworks:** FastAPI, Next.js, React, Pandas, NumPy, Scikit-learn.
+• **Programming & Tools:** Python, SQL, Git/GitHub, Jupyter, Ollama, REST APIs.
+• **Training & Mentorship:** AI/ML instruction, GenAI workshops, curriculum development, student mentoring.`
       },
 
       projects: {
         keywords:['project','projects','portfolio','work','built','developed'],
         response: `**Selected Projects**
 
+• **SolarMind AI** — Solar analytics platform at Aiseri Lab: time-series anomaly detection on PV data with Ollama-based LLM reporting.
 • **AI Flower-Picking Robot (Concept & Prototype)** — Robotics + vision + soft-grippers for jasmine farms (lab & field experiments).  
-• **AgriWaste2Fuel** — ANNAM.AI hackathon project: AI-driven optimization for converting agricultural waste to eco-friendly fuel.  
+• **AgriWaste2Fuel** — ANNAM.AI hackathon project: AI-driven optimization for converting agricultural waste to eco-friendly fuel. 3rd place, ANNAM.AI Hackathon 2025 (IIT Ropar).  
 • **Trinetra AI (Tourism LLM Chatbot)** — LLM fine-tuning, multilingual dataset pipelines, domain adaptation for tourism.  
 • **Portfolio & Web Apps** — Responsive portfolio (this site), dashboards, and small business websites (performance & SEO focused).
 
@@ -6095,7 +6588,7 @@ Tell me which project you'd like a short summary or a technical breakdown of.`
         keywords:['education','study','degree','college','university','btech','school'],
         response: `**Education & Learning**
 
-• **B.Tech — Artificial Intelligence & Data Science** (current)  
+• **B.Tech — Artificial Intelligence & Data Science**, Achariya College of Engineering Technology, Puducherry (2022 — 2026). CGPA 8.49/10, Gold Rank — Top 5 in Department.
 • **Continuous learning:** Online courses, certifications, and hands-on projects for ML, data engineering, and LLMs.  
 • **Competitions & Hackathons:** Active participant & mentor — Smart India Hackathon preparations, NASA Space Apps, GSSoC contributions.`
       },
@@ -6104,8 +6597,9 @@ Tell me which project you'd like a short summary or a technical breakdown of.`
         keywords:['contact','email','reach','hire','linkedin','github','connect'],
         response: `**Connect with SAKTHIVEL S M **
 
-• **Email:** s.m.sakthivelofficial@gmail.com  
-• **LinkedIn:** https://www.linkedin.com/in/callmedataman/  
+• **Email:** thinkrecursive@gmail.com
+• **Phone:** <a href="tel:+919342192478">+91 9342192478</a>
+• **LinkedIn:** https://www.linkedin.com/in/smsakthivel/  
 • **GitHub:** https://github.com/SAKTHIVEL-SEENIVASAN (check repos & contributions)  
 • Open to collaborations, internships, freelance work, and mentorship requests.`
       },
@@ -6124,7 +6618,9 @@ Sakthivel's mission is to **build AI systems that create practical, positive imp
         keywords:['about','who','sakthi','sakthivel','developer','person'],
         response: `**About SAKTHIVEL S M **
 
-I am a hands-on AI/ML & Data Engineer who builds real-world systems — from model training and data pipelines to full-stack productization. I combine leadership, open-source mindset, and applied research to create tools that people and communities can use.`
+I am a hands-on AI/ML & Data Engineer who builds real-world systems — from model training and data pipelines to full-stack productization. I combine leadership, open-source mindset, and applied research to create tools that people and communities can use.
+
+Currently an AI Engineer at Ashirvad by Aliaxis, Bengaluru, building enterprise Generative AI applications, LLM-powered assistants and RAG systems, and a Technical Trainer in AI & Generative AI at Marcello Tech.`
       },
 
       default: {
