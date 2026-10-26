@@ -2272,7 +2272,7 @@ particlesJS("particles-js", {
                 <div class="relative group z-10">
                     <!-- Dynamic Photo Gallery -->
                     <div id="dynamic-photo-container" class="relative w-full h-96 md:h-[500px] rounded-3xl overflow-hidden">
-                        <img id="dynamic-photo" src="assests/b.png" alt="SAKTHIVEL S M"
+                        <img id="dynamic-photo" src="assests/event-photos/yash.png" alt="SAKTHIVEL S M"
                              class="enhanced-photo w-full h-full object-cover transform transition-all duration-500 
                              hover:scale-110 hover:brightness-110">
                     </div>
@@ -2418,14 +2418,7 @@ particlesJS("particles-js", {
 
     // Dynamic Photo Gallery
     const imagePaths = [
-        'assests/b.png',
-        'assests/pic/WhatsApp Image 2025-10-19 at 6.45.21 PM.jpeg',
-        'assests/pic/Screenshot_20251019_184046.png',
-        'assests/pic/Screenshot_20251019_184022.png',
-        'assests/pic/Screenshot_20251019_183804.png',
-        'assests/pic/Screenshot_20251019_183913.png',
-        'assests/pic/Screenshot_20251019_183846.png',
-        'assests/pic/Screenshot_20251019_183934.png'
+        'assests/event-photos/yash.png'
     ];
 
     let currentImageIndex = 0;
@@ -2440,8 +2433,8 @@ particlesJS("particles-js", {
         }, 500);
     }
 
-    // Change image every 4 seconds
-    setInterval(changeImage, 4000);
+    // Change image every 4 seconds (only when there is more than one photo)
+    if (imagePaths.length > 1) setInterval(changeImage, 4000);
 
     // Initialize particles
     particlesJS("about-particles", {
