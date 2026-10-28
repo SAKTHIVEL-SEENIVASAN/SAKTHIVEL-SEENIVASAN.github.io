@@ -181,36 +181,36 @@
 <table align="center" border="0" cellpadding="10" width="95%">
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/sakthivel-s-m/solarmind-ai">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=solarmind-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/AgriWaste2Fuel">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=AgriWaste2Fuel&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
-      <br/><b>SolarMind AI</b> · Time-Series ML + LLM
+      <br/><b>AgriWaste2Fuel</b> · Flagship · Computer Vision
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/sakthivel-s-m/trinetra-ai">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=trinetra-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/TRINETRA-AI">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=TRINETRA-AI&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>TRINETRA AI</b> · LLM + RAG
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/sakthivel-s-m/agriwaste2fuel">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=agriwaste2fuel&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/smartmess-ai">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=smartmess-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
-      <br/><b>AgriWaste2Fuel</b> · Computer Vision
+      <br/><b>SmartMess AI</b> · Demand Forecasting
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/sakthivel-s-m/civiceye">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=civiceye&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/CIVICEYE">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=CIVICEYE&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
-      <br/><b>CivicEye</b> · YOLOv8
+      <br/><b>CivicEye</b> · YOLO + Flask
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/sakthivel-s-m/smart-mess">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=smart-mess&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/BioCatch">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=BioCatch&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
-      <br/><b>Smart Mess</b> · Demand Forecasting
+      <br/><b>BioCatch</b> · Catch-likelihood prototype
     </td>
     <td align="center" width="33%">
       <a href="https://github.com/sakthivel-s-m">

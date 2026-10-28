@@ -1,1 +1,4 @@
 node_modules/
+
+# Private file kept only on the local machine
+/assests/pic/SIGN1.jpeg
