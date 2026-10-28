@@ -14,7 +14,7 @@
 <a href="https://linkedin.com/in/callmedataman">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="https://github.com/SAKTHIVEL-SEENIVASAN">
+<a href="https://github.com/sakthivel-s-m">
   <img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 <a href="mailto:s.m.sakthivelofficial@gmail.com">
@@ -181,40 +181,40 @@
 <table align="center" border="0" cellpadding="10" width="95%">
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/SAKTHIVEL-SEENIVASAN/solarmind-ai">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SAKTHIVEL-SEENIVASAN&repo=solarmind-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/solarmind-ai">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=solarmind-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>SolarMind AI</b> · Time-Series ML + LLM
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/SAKTHIVEL-SEENIVASAN/trinetra-ai">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SAKTHIVEL-SEENIVASAN&repo=trinetra-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/trinetra-ai">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=trinetra-ai&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>TRINETRA AI</b> · LLM + RAG
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/SAKTHIVEL-SEENIVASAN/agriwaste2fuel">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SAKTHIVEL-SEENIVASAN&repo=agriwaste2fuel&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/agriwaste2fuel">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=agriwaste2fuel&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>AgriWaste2Fuel</b> · Computer Vision
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/SAKTHIVEL-SEENIVASAN/civiceye">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SAKTHIVEL-SEENIVASAN&repo=civiceye&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/civiceye">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=civiceye&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>CivicEye</b> · YOLOv8
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/SAKTHIVEL-SEENIVASAN/smart-mess">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SAKTHIVEL-SEENIVASAN&repo=smart-mess&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m/smart-mess">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=smart-mess&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>Smart Mess</b> · Demand Forecasting
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/SAKTHIVEL-SEENIVASAN">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SAKTHIVEL-SEENIVASAN&repo=SAKTHIVEL-SEENIVASAN&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+      <a href="https://github.com/sakthivel-s-m">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sakthivel-s-m&repo=SAKTHIVEL-SEENIVASAN&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
       </a>
       <br/><b>View All →</b>
     </td>
@@ -256,20 +256,20 @@
 </div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SAKTHIVEL-SEENIVASAN&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&rank_icon=github"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKTHIVEL-SEENIVASAN&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=8"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sakthivel-s-m&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&rank_icon=github"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakthivel-s-m&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=8"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=SAKTHIVEL-SEENIVASAN&theme=tokyonight&hide_border=true&background=0d1117"/>
+  <img src="https://streak-stats.demolab.com?user=sakthivel-s-m&theme=tokyonight&hide_border=true&background=0d1117"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SAKTHIVEL-SEENIVASAN&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=sakthivel-s-m&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAKTHIVEL-SEENIVASAN&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sakthivel-s-m&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true"/>
 </p>
 
 <!-- ===== DIVIDER ===== -->
@@ -282,9 +282,9 @@
   </h2>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/SAKTHIVEL-SEENIVASAN/SAKTHIVEL-SEENIVASAN/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakthivel-s-m/SAKTHIVEL-SEENIVASAN/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakthivel-s-m/SAKTHIVEL-SEENIVASAN/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/sakthivel-s-m/SAKTHIVEL-SEENIVASAN/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
 
@@ -350,7 +350,7 @@
   <a href="https://linkedin.com/in/callmedataman">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://github.com/SAKTHIVEL-SEENIVASAN">
+  <a href="https://github.com/sakthivel-s-m">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="mailto:s.m.sakthivelofficial@gmail.com">
